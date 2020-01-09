@@ -1,2 +1,2 @@
 # PauseMenu4All
-Pause Menu for Retropie
+Pause Menu for Retropie on Linux
