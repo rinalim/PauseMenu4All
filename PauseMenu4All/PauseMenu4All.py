@@ -31,10 +31,10 @@ JS_EVENT_INIT = 0x80
 
 CONFIG_DIR = '/opt/retropie/configs/'
 RETROARCH_CFG = CONFIG_DIR + 'all/retroarch.cfg'
-PATH_PAUSEMENU = CONFIG_DIR + 'all/PauseMenu/'	
-VIEWER = PATH_PAUSEMENU + "omxiv-pause /tmp/pause.txt -f -t 5 -T blend --duration 200 -l 30001 -a center"
-VIEWER_BG = PATH_PAUSEMENU + "omxiv-pause " + PATH_PAUSEMENU + "pause_bg.png -l 29999 -a fill"
-VIEWER_OSD = PATH_PAUSEMENU + "omxiv-pause /tmp/pause.txt -f -t 5 -T blend --duration 200 -l 30001 -a center --win 980,864,1280,1024"
+PATH_PAUSEMENU = CONFIG_DIR + 'all/PauseMenu4All/'	
+VIEWER = PATH_PAUSEMENU + "pqiv -c -i -c --display=:0"
+#VIEWER_BG = PATH_PAUSEMENU + "omxiv-pause " + PATH_PAUSEMENU + "pause_bg.png -l 29999 -a fill"
+#VIEWER_OSD = PATH_PAUSEMENU + "omxiv-pause /tmp/pause.txt -f -t 5 -T blend --duration 200 -l 30001 -a center --win 980,864,1280,1024"
 
 SELECT_BTN_ON = False
 START_BTN_ON = False
@@ -387,14 +387,9 @@ def start_viewer():
     else:
         os.system("echo " + PATH_PAUSEMENU + "pause_resume.png > /tmp/pause.txt")
 
-    os.system(VIEWER_BG + " &")
+    #os.system(VIEWER_BG + " &")
     os.system(VIEWER + get_location() + " &")
 	
-def start_viewer_osd():
-    if control_on() == True and os.path.isfile(PATH_PAUSEOPTION + romname + "_control.png") == True :
-        os.system("echo " + PATH_PAUSEOPTION + romname + "_control.png > /tmp/pause.txt")
-        os.system(VIEWER_OSD + " &")
-
 def stop_viewer():
 	if is_running("omxiv-pause") == True:
             os.system("killall omxiv-pause")
@@ -496,7 +491,6 @@ def process_event(event):
                     change_viewer("UP")
                 elif SELECT_BTN_ON == True:
                     print "OSD mode on"
-                    start_viewer_osd()	
             if js_value >= JS_MAX * JS_THRESH:
                 #print "Down pushed"
                 DOWN_ON = True
@@ -547,17 +541,9 @@ def process_event(event):
                 PAUSE_MODE_ON = True;
                 MENU_INDEX = 1    # Resume
                 stop_viewer()
-                start_viewer()
                 os.system("ps -ef | grep emulators | grep -v grep | awk '{print $2}' | xargs kill -SIGSTOP &");
-        elif SELECT_BTN_ON == True and UP_ON == True:
-            print "OSD mode on"
-            if PAUSE_MODE_ON == False:
-                start_viewer_osd()	
-	elif SELECT_BTN_ON == True and DOWN_ON == True:
-            print "OSD mode off"
-            if PAUSE_MODE_ON == False:
-                stop_viewer()
-
+                start_viewer()
+                
     return True
 
 def main():

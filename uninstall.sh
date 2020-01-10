@@ -1,5 +1,5 @@
-rm -rf /opt/retropie/configs/all/PauseMenu/
+rm -rf /opt/retropie/configs/all/PauseMenu4All/
 
-sudo sed -i '/PauseMenu.py/d' /opt/retropie/configs/all/runcommand-onstart.sh
+sudo sed -i '/PauseMenu4All.py/d' /opt/retropie/configs/all/runcommand-onstart.sh
 
-python ./PauseMenu/remove.py
+python ./PauseMenu4All/remove.py
