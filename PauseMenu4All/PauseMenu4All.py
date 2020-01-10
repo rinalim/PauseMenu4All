@@ -32,7 +32,7 @@ JS_EVENT_INIT = 0x80
 CONFIG_DIR = '/opt/retropie/configs/'
 RETROARCH_CFG = CONFIG_DIR + 'all/retroarch.cfg'
 PATH_PAUSEMENU = CONFIG_DIR + 'all/PauseMenu4All/'	
-VIEWER = "pqiv -c -i -c --display=:0 "
+VIEWER = "pqiv -c -i -f --display=:0 "
 #VIEWER_BG = PATH_PAUSEMENU + "omxiv-pause " + PATH_PAUSEMENU + "pause_bg.png -l 29999 -a fill"
 #VIEWER_OSD = PATH_PAUSEMENU + "omxiv-pause /tmp/pause.txt -f -t 5 -T blend --duration 200 -l 30001 -a center --win 980,864,1280,1024"
 
@@ -383,9 +383,9 @@ def draw_picture(system, buttons):
 
 def start_viewer():
     if control_on() == True and os.path.isfile(PATH_PAUSEOPTION + romname + "_resume.png") == True :
-        os.system(VIEWER + PATH_PAUSEOPTION + romname + "_resume.png")
+        os.system(VIEWER + PATH_PAUSEOPTION + romname + "_resume.png &")
     else:
-        os.system(VIEWER + PATH_PAUSEMENU + "pause_resume.png")
+        os.system(VIEWER + PATH_PAUSEMENU + "pause_resume.png &")
 
     #os.system(VIEWER_BG + " &")
     #os.system(VIEWER + get_location() + " &")
@@ -399,14 +399,14 @@ def change_viewer(position):
         os.system("killall pqiv")
     if position == "UP":
         if control_on() == True and os.path.isfile(PATH_PAUSEOPTION + romname + "_resume.png") == True :
-            os.system(VIEWER + PATH_PAUSEOPTION + romname + "_resume.png")
+            os.system(VIEWER + PATH_PAUSEOPTION + romname + "_resume.png &")
 	else:
-            os.system(VIEWER + PATH_PAUSEMENU + "pause_resume.png")
+            os.system(VIEWER + PATH_PAUSEMENU + "pause_resume.png &")
     if position == "DOWN":
         if control_on() == True and os.path.isfile(PATH_PAUSEOPTION + romname + "_stop.png") == True :
-            os.system(VIEWER + PATH_PAUSEOPTION + romname + "_stop.png")
+            os.system(VIEWER + PATH_PAUSEOPTION + romname + "_stop.png &")
 	else:
-            os.system(VIEWER + PATH_PAUSEMENU + "pause_stop.png")
+            os.system(VIEWER + PATH_PAUSEMENU + "pause_stop.png &")
         
 def is_running(pname):
     ps_grep = run_cmd("ps -ef | grep " + pname + " | grep -v grep")
