@@ -6,7 +6,7 @@ import curses, errno
 from pyudev import Context
 from subprocess import *
 import xml.etree.ElementTree as ET
-from PIL import Image, ImageDraw, ImageFont
+#from PIL import Image, ImageDraw, ImageFont
 import ast
 
 #    struct js_event {
