@@ -144,8 +144,7 @@ dev_name = load_es_cfg()
 
 if len(sys.argv) > 2 and sys.argv[2] == '-control':
     set_layout()
-    
-load_retroarch_cfg(dev_name)
+    load_retroarch_cfg(dev_name)
 
 btn_select = -1
 btn_start = -1
