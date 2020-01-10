@@ -399,12 +399,12 @@ def change_viewer(position):
         os.system("killall pqiv")
     if position == "UP":
         if control_on() == True and os.path.isfile(PATH_PAUSEOPTION + romname + "_resume.png") == True :
-            os.system(VIEWER + PATH_PAUSEOPTION + romname + "_resume.png"
+            os.system(VIEWER + PATH_PAUSEOPTION + romname + "_resume.png")
 	else:
             os.system(VIEWER + PATH_PAUSEOPTION + "pause_resume.png")
     if position == "DOWN":
         if control_on() == True and os.path.isfile(PATH_PAUSEOPTION + romname + "_stop.png") == True :
-            os.system(VIEWER + PATH_PAUSEOPTION + romname + "_stop.png"
+            os.system(VIEWER + PATH_PAUSEOPTION + romname + "_stop.png")
 	else:
             os.system(VIEWER + PATH_PAUSEOPTION + "pause_stop.png")
         
