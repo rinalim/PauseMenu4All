@@ -55,7 +55,7 @@ def set_layout():
 
     es_conf = input('\nSelect your joystick layout: ')
     
-    f = open(PATH_PAUSEMENU + "/control/layout.cfg", 'w')
+    f = open(PATH_PAUSEMENU + "control/layout.cfg", 'w')
     f.write(str(es_conf)+'\n')
     f.close()
 
