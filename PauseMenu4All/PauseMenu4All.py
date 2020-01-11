@@ -383,30 +383,30 @@ def draw_picture(system, buttons):
 
 def start_viewer():
     if control_on() == True and os.path.isfile(PATH_PAUSEOPTION + romname + "_resume.png") == True :
-        os.system(VIEWER + PATH_PAUSEOPTION + romname + "_resume.png &")
+        os.system("cp " + PATH_PAUSEOPTION + romname + "_resume.png /tmp/pause.png")
     else:
-        os.system(VIEWER + PATH_PAUSEMENU + "pause_resume.png &")
+        os.system("cp " + PATH_PAUSEMENU + "pause_resume.png /tmp/pause.png")
 
     #os.system(VIEWER_BG + " &")
-    #os.system(VIEWER + get_location() + " &")
+    os.system(VIEWER + "/tmp/pause.png &")
 	
 def stop_viewer():
     if is_running("pqiv") == True:
         os.system("killall pqiv")
     
 def change_viewer(position):
-    if is_running("pqiv") == True:
-        os.system("killall pqiv")
+    #if is_running("pqiv") == True:
+    #    os.system("killall pqiv")
     if position == "UP":
         if control_on() == True and os.path.isfile(PATH_PAUSEOPTION + romname + "_resume.png") == True :
-            os.system(VIEWER + PATH_PAUSEOPTION + romname + "_resume.png &")
+            os.system("cp " + PATH_PAUSEOPTION + romname + "_resume.png /tmp/pause.png")
 	else:
-            os.system(VIEWER + PATH_PAUSEMENU + "pause_resume.png &")
+            os.system("cp " + PATH_PAUSEMENU + "pause_resume.png /tmp/pause.png")
     if position == "DOWN":
         if control_on() == True and os.path.isfile(PATH_PAUSEOPTION + romname + "_stop.png") == True :
-            os.system(VIEWER + PATH_PAUSEOPTION + romname + "_stop.png &")
+            os.system("cp " + PATH_PAUSEOPTION + romname + "_stop.png /tmp/pause.png")
 	else:
-            os.system(VIEWER + PATH_PAUSEMENU + "pause_stop.png &")
+            os.system("cp " + PATH_PAUSEMENU + "pause_stop.png /tmp/pause.png")
         
 def is_running(pname):
     ps_grep = run_cmd("ps -ef | grep " + pname + " | grep -v grep")
