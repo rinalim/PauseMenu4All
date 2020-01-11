@@ -6,7 +6,7 @@ rm -rf /opt/retropie/configs/all/PauseMenu4All/
 mkdir /opt/retropie/configs/all/PauseMenu4All/
 cp -f -r ./PauseMenu4All /opt/retropie/configs/all/
 
-sudo sed -i '/PauseMenu.py/d' /opt/retropie/configs/all/runcommand-onstart.sh
+sudo sed -i '/PauseMenu4All.py/d' /opt/retropie/configs/all/runcommand-onstart.sh
 echo '/usr/bin/python /opt/retropie/configs/all/PauseMenu4All/PauseMenu4All.py /dev/input/js0 &' >> /opt/retropie/configs/all/runcommand-onstart.sh
 
 chgrp -R -v pi /opt/retropie/configs/all/PauseMenu4All/
