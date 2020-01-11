@@ -388,6 +388,7 @@ def start_viewer():
         os.system("cp " + PATH_PAUSEMENU + "pause_resume.png /tmp/pause.png")
 
     os.system(VIEWER_BG + " &")
+    time.sleep(0.1)
     os.system(VIEWER + "/tmp/pause.png &")
 	
 def stop_viewer():
