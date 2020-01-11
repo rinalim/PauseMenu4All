@@ -2,6 +2,8 @@
 # https://github.com/RetroPie/RetroPie-Setup/blob/master/scriptmodules/supplementary/runcommand/joy2key.py
 # https://github.com/sana2dang/PauseMode
 
+sudo apt-get install pqiv -y
+
 rm -rf /opt/retropie/configs/all/PauseMenu4All/
 mkdir /opt/retropie/configs/all/PauseMenu4All/
 cp -f -r ./PauseMenu4All /opt/retropie/configs/all/
