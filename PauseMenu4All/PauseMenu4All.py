@@ -32,7 +32,8 @@ JS_EVENT_INIT = 0x80
 CONFIG_DIR = '/opt/retropie/configs/'
 RETROARCH_CFG = CONFIG_DIR + 'all/retroarch.cfg'
 PATH_PAUSEMENU = CONFIG_DIR + 'all/PauseMenu4All/'	
-VIEWER = "pqiv -c -i -f --display=:0 "
+#VIEWER = "pqiv -c -i -f --display=:0 "
+VIEWER = "pqiv -c -i -f "
 #VIEWER_BG = PATH_PAUSEMENU + "omxiv-pause " + PATH_PAUSEMENU + "pause_bg.png -l 29999 -a fill"
 #VIEWER_OSD = PATH_PAUSEMENU + "omxiv-pause /tmp/pause.txt -f -t 5 -T blend --duration 200 -l 30001 -a center --win 980,864,1280,1024"
 
