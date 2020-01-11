@@ -514,12 +514,12 @@ def process_event(event):
                     if MENU_INDEX == 1:
                         print "Resume"
                         stop_viewer()
-                        os.system("ps -ef | grep emulators | grep -v grep | awk '{print $2}' | xargs kill -SIGCONT &")
+                        #os.system("ps -ef | grep emulators | grep -v grep | awk '{print $2}' | xargs kill -SIGCONT &")
                         PAUSE_MODE_ON = False
                     elif MENU_INDEX == 2:
                         print "Kill"
                         stop_viewer()
-                        os.system("ps -ef | grep emulators | grep -v grep | awk '{print $2}' | xargs kill -SIGCONT &");
+                        #os.system("ps -ef | grep emulators | grep -v grep | awk '{print $2}' | xargs kill -SIGCONT &");
                         os.system("ps -ef | grep emulators | grep -v grep | awk '{print $2}' | xargs kill -SIGINT");
                         close_fds(js_fds)
                         sys.exit(0)
@@ -542,8 +542,8 @@ def process_event(event):
             if PAUSE_MODE_ON == False:
                 PAUSE_MODE_ON = True;
                 MENU_INDEX = 1    # Resume
-                stop_viewer()
-                os.system("ps -ef | grep emulators | grep -v grep | awk '{print $2}' | xargs kill -SIGSTOP &");
+                #stop_viewer()
+                #os.system("ps -ef | grep emulators | grep -v grep | awk '{print $2}' | xargs kill -SIGSTOP &");
                 start_viewer()
                 
     return True
