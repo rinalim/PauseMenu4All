@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="kroozr" gamename="Kozmik Kroozr" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="1">
+	<miscDetails>
+OTHER: Mame's driver (incorrectly) emulates this as an 8way trigger stick (so I included that).  However, the real game used an analog trigger joystick (so I put other).   The A/D circuit in part of the joystick assembly, instead of on the main PCB or daughter board like most analog joysticks; and the connection had 8 pins per axis.   The joystick handle looked a lot like (if not exactly the same as) a tron handle.  The spinner was also a push down button, much like a Forgotten Worlds spinner.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="8-way Triggerstick">
+				<constant name="joy8way"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+			<control name="Spinner">
+				<constant name="dial"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Zap!"/>
+			<label name="P1_BUTTON2" value="Shield"/>
+			<label name="P1_JOYSTICK_UP" value="Krooz Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Krooz Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Krooz Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Krooz Right"/>
+			<label name="P1_DIAL" value="Aim Left"/>
+			<label name="P1_DIAL_EXT" value="Aim Right"/>
+		</labels>
+	</player>
+</game>

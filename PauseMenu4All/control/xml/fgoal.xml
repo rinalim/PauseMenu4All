@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="fgoal" gamename="Field Goal" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="1">
+	<miscDetails>
+	</miscDetails>
+	<player number="1" numButtons="0">
+		<controls>
+			<control name="Paddle (Horizontal)">
+				<constant name="paddle"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_PADDLE" value="Left"/>
+			<label name="P1_PADDLE_EXT" value="Right"/>
+		</labels>
+	</player>
+</game>

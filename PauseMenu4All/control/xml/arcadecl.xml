@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="arcadecl" gamename="Arcade Classics (prototype)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="Trackball">
+				<constant name="trackball"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire / Left Missile"/>
+			<label name="P1_BUTTON2" value="Fire / Center Missile"/>
+			<label name="P1_BUTTON3" value="Fire / Right Missile"/>
+			<label name="P1_TRACKBALL_Y_EXT" value="Down"/>
+			<label name="P1_TRACKBALL_Y" value="Up"/>
+			<label name="P1_TRACKBALL_X_EXT" value="Right"/>
+			<label name="P1_TRACKBALL_X" value="Left"/>
+		</labels>
+	</player>
+</game>

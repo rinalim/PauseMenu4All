@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="duckhunt" gamename="Vs. Duck Hunt (Set E)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The Nintendo Vs. System was released along side the original NES game console. The games it plays are virtually identical.  This is the earliest known mvs cabinet. Almost all Vs cabinets had a layout exactly like the NES at home, with a joystick, A and B buttons, or a zapper. Although the cabinets had buttons for 3 and 4 player start, most of the games were only two player.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="B"/>
+			<label name="P1_BUTTON2" value="A"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+		</labels>
+	</player>
+</game>

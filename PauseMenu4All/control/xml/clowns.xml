@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="clowns" gamename="Clowns (rev. 2)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+This game definately has a unique layout.  Although players take turns, each player has his own controls, even on the upright version.  Even stranger is the fact that the second players controls are on the left and player one is on the right.
+	</miscDetails>
+	<player number="1" numButtons="0">
+		<controls>
+			<control name="Paddle (Horizontal)">
+				<constant name="paddle"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_PADDLE" value="Move Left"/>
+			<label name="P1_PADDLE_EXT" value="Move Right"/>
+		</labels>
+	</player>
+</game>

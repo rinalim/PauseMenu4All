@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="holo" gamename="Holosseum (US)" numPlayers="2" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+It should be noted that this game doesn\'t have labels, as it is a conversion kit for the hologram (time traveler) cabinet.  
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Quick Tricks"/>
+			<label name="P1_BUTTON2" value="Fierce Tricks"/>
+			<label name="P1_JOYSTICK_UP" value="Jump"/>
+			<label name="P1_JOYSTICK_DOWN" value="Crouch"/>
+			<label name="P1_JOYSTICK_LEFT" value="Backward / Defend"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Forward"/>
+		</labels>
+	</player>
+	<player number="2" numButtons="2">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P2_BUTTON1" value="Quick Tricks"/>
+			<label name="P2_BUTTON2" value="Fierce Tricks"/>
+			<label name="P2_JOYSTICK_UP" value="Jump"/>
+			<label name="P2_JOYSTICK_DOWN" value="Crouch"/>
+			<label name="P2_JOYSTICK_LEFT" value="Forward"/>
+			<label name="P2_JOYSTICK_RIGHT" value="Backward / Defense"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="spacefb" gamename="Space Firebird (Nintendo, set 1)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+The game's cpo used nautical labels above the directional buttons and arrows below them.  Since we aren't all sailors, the arrow directions are included.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Directional Buttons(2-way left/right)">
+				<constant name="joy2way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="Warp"/>
+			<label name="P1_JOYSTICK_LEFT" value="Port (Left)"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Starboard (Right)"/>
+		</labels>
+	</player>
+</game>

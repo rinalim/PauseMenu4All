@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="atarifb" gamename="Atari Football (revision 2)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+There are 4 plays (well, four offense, four defense) per player displayed as part of the control panel with an LED for each play and selected with the action button.  You cannot play against the computer: this game has to be played with two players.  There is a four player version with four trackballs; that version has to be played with 4 players.  **Update**  I looked in the mame cpo pack and found a pic to fill in the button label.  Rebel, if you need a copy of the cpo pack please contact me, it's very helpful.  
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Trackball">
+				<constant name="trackball"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Play Select:  Press to Pass / Kick"/>
+			<label name="P1_TRACKBALL_Y_EXT" value="Down"/>
+			<label name="P1_TRACKBALL_Y" value="Up"/>
+			<label name="P1_TRACKBALL_X_EXT" value="Right"/>
+			<label name="P1_TRACKBALL_X" value="Left"/>
+		</labels>
+	</player>
+</game>

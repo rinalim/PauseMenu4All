@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="mole" gamename="Mole Attack" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+The button is layed out on a 3x3 grid and relates directly to the position on the screen  Top Row:    7 8 9 Middle Row: 4 5 6 Bottom Row: 1 2 3
+	</miscDetails>
+	<player number="1" numButtons="9">
+		<controls>
+			<control name="Just Buttons">
+				<constant name="button"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Attack 1"/>
+			<label name="P1_BUTTON2" value="Attack 2"/>
+			<label name="P1_BUTTON3" value="Attack 3"/>
+			<label name="P1_BUTTON4" value="Attack 4"/>
+			<label name="P1_BUTTON5" value="Attack 5"/>
+			<label name="P1_BUTTON6" value="Attack 6"/>
+			<label name="P1_BUTTON7" value="Attack 7"/>
+			<label name="P1_BUTTON8" value="Attack 8"/>
+			<label name="P1_BUTTON9" value="Attack 9"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="armorcar" gamename="Armored Car (set 1)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+I think a bit of how to play info might be necessary.  The sawhorse button releases a police barrier to crash cars.  The 2nd gear button makes you go faster, but only while it is held.  
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="4-way Joystick">
+				<constant name="joy4way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Sawhorse"/>
+			<label name="P1_BUTTON2" value="2nd Gear"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

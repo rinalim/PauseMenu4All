@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="bm1stmix" gamename="beatmania (ver JA-B)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+This game uses a musical 'keyboard' and Turntable.  The keyboard is actually 5 trivia buttons rotated 90 degrees, arranged like a section of a piano.    Important NOTE:    This game has a 6th button next to the start buttons on the control panel labeled 'Effector'.  The button is mapped to start3 in mame because of it's physical position and this seems to make the most sense.   As the button doesn't really impact gameplay, we'll simply ignore it for now.  
+	</miscDetails>
+	<player number="1" numButtons="5">
+		<controls>
+			<control name="Turntable">
+				<constant name="dial"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="White 1"/>
+			<label name="P1_BUTTON2" value="Black 1"/>
+			<label name="P1_BUTTON3" value="White 2"/>
+			<label name="P1_BUTTON4" value="Black 2"/>
+			<label name="P1_BUTTON5" value="White 3"/>
+			<label name="P1_DIAL_EXT" value="Scratch"/>
+			<label name="P1_DIAL" value="Scratch"/>
+		</labels>
+	</player>
+</game>

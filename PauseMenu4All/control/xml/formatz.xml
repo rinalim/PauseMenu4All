@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="formatz" gamename="Formation Z" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+In the kit, it was optional to have the buttons mirrored on both sides of the joystick.  Used 8-way leaf joysticks  Holding the laser button down gives the player one stronger shot.  Holding the jump button down transforms the player between a robot and an airplane.  Unlike most side-scroll shooters with only shoot straight sideways, you shoot diagonally when the joystick is pushed up or down.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Laser / Hold for Energy"/>
+			<label name="P1_BUTTON2" value="Jump Button / Hold to Transform"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

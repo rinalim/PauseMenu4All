@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="capbowl" gamename="Capcom Bowling (set 1)" numPlayers="4" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Trackball">
+				<constant name="trackball"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Hook Left"/>
+			<label name="P1_BUTTON2" value="Hook Right"/>
+			<label name="P1_TRACKBALL_X" value="Left"/>
+			<label name="P1_TRACKBALL_X_EXT" value="Right"/>
+			<label name="P1_TRACKBALL_Y" value="Up"/>
+			<label name="P1_TRACKBALL_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

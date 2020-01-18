@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="mhavoc" gamename="Major Havoc (rev 3)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Roller(Horizontal)">
+				<constant name="dial"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire/Jump"/>
+			<label name="P1_BUTTON2" value="Shield"/>
+			<label name="P1_DIAL_EXT" value="Move Right"/>
+			<label name="P1_DIAL" value="Move Left"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="3stooges" gamename="The Three Stooges In Brides Is Brides" numPlayers="3" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+In this three player game, which player you are determines which stooge you are.    P1=Larry  P2=Curly  P3=Moe 
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Slap / Throw"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

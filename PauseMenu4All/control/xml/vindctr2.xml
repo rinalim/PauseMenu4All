@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="vindctr2" gamename="Vindicators Part II (rev 3)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+There are two button on each stick (trigger and thumb buttons).  The thumb buttons are to rotate the tanks' turrent if you bought the ability to rotate (and it's not damaged).  The right trigger is the normal fire button, the left trigger button is to fire the special weapon.  If you have different types of special weapons, the start is used to switch between the different types.  The odd numbered buttons are the trigger sticks and the even numbered ones are the thumbsticks on the left and right stck respectively.  
+	</miscDetails>
+	<player number="1" numButtons="4">
+		<controls>
+			<control name="Dual 2-way Joysticks (Vertical)">
+				<constant name="vdoublejoy2way"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+				<button name="P1_BUTTON3"/>
+				<button name="P1_BUTTON4"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="special"/>
+			<label name="P1_BUTTON2" value="rotate left"/>
+			<label name="P1_BUTTON3" value="fire"/>
+			<label name="P1_BUTTON4" value="rotate right"/>
+			<label name="P1_JOYSTICKRIGHT_UP" value="Right forward"/>
+			<label name="P1_JOYSTICKLEFT_DOWN" value="Left back"/>
+			<label name="P1_JOYSTICKLEFT_UP" value="Left forward"/>
+			<label name="P1_JOYSTICKRIGHT_DOWN" value="Right back"/>
+		</labels>
+	</player>
+</game>

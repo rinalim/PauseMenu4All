@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="a51site4" gamename="Area 51: Site 4" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Shoot off-screen to reload.  Note:  many pc lightguns have a dedicated reload button, which mame supports.
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Lightgun">
+				<constant name="lightgun"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_LIGHTGUN_X" value="Aim Left"/>
+			<label name="P1_LIGHTGUN_X_EXT" value="Aim Right"/>
+			<label name="P1_LIGHTGUN_Y" value="Aim Up"/>
+			<label name="P1_LIGHTGUN_Y_EXT" value="Aim Down"/>
+		</labels>
+	</player>
+</game>

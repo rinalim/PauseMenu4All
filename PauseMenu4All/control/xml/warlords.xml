@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="warlords" gamename="Warlords" numPlayers="4" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+The player buttons simply start the game.  They do not do anything else and the mame start buttons are deactivated in this game.  
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Paddle (Horizontal)">
+				<constant name="paddle"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Start"/>
+			<label name="P1_PADDLE" value="Left"/>
+			<label name="P1_PADDLE_EXT" value="Right"/>
+		</labels>
+	</player>
+</game>

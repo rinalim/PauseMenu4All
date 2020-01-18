@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="pbobble3" gamename="Puzzle Bobble 3 (Ver 2.1O 1996/09/27)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+Mame lists Puzzle Bobble 3 as having 4 buttons and an 8-way joystick (because it is a Taito F3 System game); only one button is used during gameplay, Test Mode lists 3 buttons. Only left and right are used during gameplay, up and down are used during Test Mode. I can find no references to button 4.
+	</miscDetails>
+	<player number="1" numButtons="4">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Shoot"/>
+			<label name="P1_BUTTON2" value="NA"/>
+			<label name="P1_BUTTON3" value="NA"/>
+			<label name="P1_BUTTON4" value="NA"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+		</labels>
+	</player>
+</game>

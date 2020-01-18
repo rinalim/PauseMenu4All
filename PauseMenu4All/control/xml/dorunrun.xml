@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="dorunrun" gamename="Do! Run Run (set 1)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="1">
+	<miscDetails>
+Something of note is that this game actually has a second button and this button is emulated in mame.  The reason it isn't included here is because it was a dead button left-over from development of the game and isn't found on the control panel.  The manual explains installing the controls, but neglects to mention this button, however it does show up in the service menu as 'p1 jump'.  
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="4-way Joystick">
+				<constant name="joy4way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

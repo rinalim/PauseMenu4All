@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="pitfight" gamename="Pit Fighter (rev 9)" numPlayers="3" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Although in the arcades the start buton was also the jump button, this is not the case in mame.  My guess is in the arcades two inputs were wired to the same button to save space much like in other 3 and 4 player games.  This game only had a 2 player verison in japan, but often the 3 player us version was also used in a 2 player cabinet because of the way the menu is setup.  Unlike most multiplayer games, the coin slots are shared and you can select each character regardless of which stick you press start at.  
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Punch"/>
+			<label name="P1_BUTTON2" value="Kick"/>
+			<label name="P1_BUTTON3" value="Start / Jump"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

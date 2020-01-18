@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="blueshrk" gamename="Blue Shark" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+This game actually used a one axis positional gun shaped to look like a spear gun.  The spear shoots from the bottom of the screen and travels all the way to the top so just one axis is needed.
+	</miscDetails>
+	<player number="1" numButtons="0">
+		<controls>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+			<control name="Paddle (Horizontal)">
+				<constant name="paddle"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_PADDLE" value="Aim Left"/>
+			<label name="P1_PADDLE_EXT" value="Aim Right"/>
+		</labels>
+	</player>
+</game>

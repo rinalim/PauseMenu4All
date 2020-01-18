@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="indyheat" gamename="Danny Sullivan's Indy Heat" numPlayers="3" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Player 1 is the Red car, Player 2 is the White car (light grey-ish), Player 3 is the Blue car.  Mame by default maps the pedal and the turbo button to the same button input (button 1).  If you leave it this way, to use turbo, release the button and press it again.  To enter service mode, hold down the blue turbo button and then press the service key (F2).
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="360 Steering Wheel">
+				<constant name="dial"/>
+			</control>
+			<control name="Pedal (Analog)">
+				<constant name="pedal"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Turbo"/>
+			<label name="P1_DIAL" value="Left"/>
+			<label name="P1_DIAL_EXT" value="Right"/>
+			<label name="P1_PEDAL" value="Gas"/>
+		</labels>
+	</player>
+</game>

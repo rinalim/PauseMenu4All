@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="bkrtmaq" gamename="Bakuretsu Quiz Ma-Q Dai Bouken (Japan)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+This will display in mame as a 4 player even though it is only 2 player.  
+	</miscDetails>
+	<player number="1" numButtons="4">
+		<controls>
+			<control name="Trivia Buttons">
+				<constant name="button"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="1"/>
+			<label name="P1_BUTTON2" value="2"/>
+			<label name="P1_BUTTON3" value="3"/>
+			<label name="P1_BUTTON4" value="4"/>
+		</labels>
+	</player>
+</game>

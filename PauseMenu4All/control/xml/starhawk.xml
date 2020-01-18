@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="starhawk" gamename="Star Hawk" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Each player has an 8-way Joystick with a Fire Button on top.  There are three buttons on the control panel that control the speed of the targeting crosshairs. Shoot as many ships as possible.
+	</miscDetails>
+	<player number="1" numButtons="4">
+		<controls>
+			<control name="8-way Triggerstick">
+				<constant name="joy8way"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="Slow"/>
+			<label name="P1_BUTTON3" value="Medium"/>
+			<label name="P1_BUTTON4" value="Fast"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+		</labels>
+	</player>
+</game>

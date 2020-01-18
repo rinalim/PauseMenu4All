@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="canyon" gamename="Canyon Bomber" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+The panel had buttons labelled Black Start, Black Fire, White Start, White Fire.  Black is the first player and White is the second, so we don't add that part onto the label here.    It also had a button for Hi Score Reset (yes, on the panel itself), MAME oddly emulates this as p1 button 7, but the driver overrides the default key to an 'H' (for 'high' score reset).  The driver will eventually be fixed to put this button in the service buttons, where it bleongs. 
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Just Buttons">
+				<constant name="button"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+		</labels>
+	</player>
+</game>

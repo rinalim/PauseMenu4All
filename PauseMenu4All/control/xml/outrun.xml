@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="outrun" gamename="Out Run (sitdown/upright, Rev B)" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The shifter is hard-coded to the space-bar to avoid conflicts.  
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="270 Steering Wheel">
+				<constant name="paddle"/>
+			</control>
+			<control name="High-Low Shifter">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+			<control name="Pedal (Analog)">
+				<constant name="pedal"/>
+			</control>
+			<control name="Pedal2 (Analog)">
+				<constant name="pedal2"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="High / Low"/>
+			<label name="P1_PADDLE" value="Left"/>
+			<label name="P1_PADDLE_EXT" value="Right"/>
+			<label name="P1_PEDAL" value="Accelerate"/>
+			<label name="P1_PEDAL2" value="Brake"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="tinstar" gamename="The Tin Star (set 1)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="1">
+	<miscDetails>
+The game actually had a unique digital dial to aim with.  Also mame strangely puts the firing controls on the left stick, even though the dial is on the right of the joystick.
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Dual 8-way Joysticks">
+				<constant name="doublejoy8way"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_JOYSTICKLEFT_UP" value="Aim Up"/>
+			<label name="P1_JOYSTICKLEFT_DOWN" value="Aim Down"/>
+			<label name="P1_JOYSTICKLEFT_LEFT" value="Aim Left"/>
+			<label name="P1_JOYSTICKLEFT_RIGHT" value="Aim Right"/>
+			<label name="P1_JOYSTICKRIGHT_UP" value="Move Up"/>
+			<label name="P1_JOYSTICKRIGHT_DOWN" value="Move Down"/>
+			<label name="P1_JOYSTICKRIGHT_LEFT" value="Move Left"/>
+			<label name="P1_JOYSTICKRIGHT_RIGHT" value="Move Right"/>
+		</labels>
+	</player>
+</game>

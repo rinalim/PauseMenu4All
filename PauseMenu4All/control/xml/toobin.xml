@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="toobin" gamename="Toobin' (rev 3)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The buttons are arranged in a flattened pentagon shape, with the point on the bottom.  The throw button is the bottom point, above that are the two forward buttons, and the two back buttons on the top.  The original CP used the throw button also as the start; Mame has a seperate 'start' button, but both mame's 'throw' and 'start' buttons throw and start.  Mame labels the five buttons a little differently than the original CP: 'throw', 'R Paddle Forward', 'L Paddle Forward', 'L Paddle Backward', and 'R Paddle backward'.
+	</miscDetails>
+	<player number="1" numButtons="5">
+		<controls>
+			<control name="Just Buttons">
+				<constant name="button"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Throw Can / Start"/>
+			<label name="P1_BUTTON2" value="Paddle Forward (Right)"/>
+			<label name="P1_BUTTON3" value="Paddle Forward (Left)"/>
+			<label name="P1_BUTTON4" value="Back Paddle (Left)"/>
+			<label name="P1_BUTTON5" value="Back Paddle (Right)"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="carnival" gamename="Carnival (upright)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Directional Buttons(2-way left/right)">
+				<constant name="joy2way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Shoot"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

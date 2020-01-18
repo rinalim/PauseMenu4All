@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="roadblst" gamename="Road Blasters (upright, rev 4)" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Steering wheel is unique in that it uses optics but is restricted to ~270 degrees, and it returns to the center position using springs.     Also, it has 2 triggers (Fire Lasers), and 2 thumb buttons (Activate Special Weapon).  Each trigger / thumb button does the same action.  
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Pedal (Analog)">
+				<constant name="pedal"/>
+			</control>
+			<control name="360 Steering Wheel">
+				<constant name="dial"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire Lasers"/>
+			<label name="P1_BUTTON2" value="Activate Special Weapon"/>
+			<label name="P1_DIAL_EXT" value="Right"/>
+			<label name="P1_DIAL" value="Left"/>
+			<label name="P1_PEDAL" value="Accelerate"/>
+		</labels>
+	</player>
+</game>

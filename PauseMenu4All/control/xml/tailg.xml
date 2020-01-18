@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="tailg" gamename="Tailgunner" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The original game had an ambidexterous setup.  The controls were setup as Shield, Fire, Site Control(Joystick), Fire, Shield.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Analog Stick">
+				<constant name="stick"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="Shield"/>
+			<label name="P1_AD_STICK_X" value="Left"/>
+			<label name="P1_AD_STICK_X_EXT" value="Right"/>
+			<label name="P1_AD_STICK_Y" value="Up"/>
+			<label name="P1_AD_STICK_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

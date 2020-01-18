@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="destroyr" gamename="Destroyer" numPlayers="1" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+This game uses a throttle control to control the speed of the ship (fast or slow) and a rotary paddle with 'push to release' to control the depth of the charge.  The charge will explode at the depth setting that the Release button was pressed at, regardless of the current depth setting.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Paddle (Vertical)">
+				<constant name="vpaddle"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+			<control name="High-Low Shifter">
+				<constant name="button"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Release Charge"/>
+			<label name="P1_BUTTON2" value="Slow"/>
+			<label name="P1_PADDLE_V_EXT" value="Set Depth of Charge Down"/>
+			<label name="P1_PADDLE_V" value="Set Depth of Charge Up"/>
+		</labels>
+	</player>
+</game>

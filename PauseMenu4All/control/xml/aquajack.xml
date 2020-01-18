@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="aquajack" gamename="Aqua Jack (World)" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+In mame a dial is also emulated.  This dial has no apparent function and isn't used in the game at all.  It could be reminants of a hack or something.
+	</miscDetails>
+	<player number="1" numButtons="4">
+		<controls>
+			<control name="Pedal (Microswitch)">
+				<constant name="button"/>
+				<button name="P1_BUTTON4"/>
+			</control>
+			<control name="8-way Triggerstick">
+				<constant name="joy8way"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+				<button name="P1_BUTTON3"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Machine Gun"/>
+			<label name="P1_BUTTON2" value="Jump"/>
+			<label name="P1_BUTTON3" value="Vulcan"/>
+			<label name="P1_BUTTON4" value="Thrust"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="alpinerd" gamename="Alpine Racer (Rev. AR2 Ver.D)" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+This game uses a dedicated platform shaped like a pair of skiis.  It basically acts like a giant analog stick. The player navigates via three, lighted, navigational buttons. (Left, Right and Decision)  The Decision button also changes view during gameplay.  The 'sweep' and 'edge' descriptions were taken directly from the game's cryptic i/o test menu.  Knowing nothing about skiiing, the way the terms 'sweep' and 'edge' were used may be incorrect.
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="Analog Stick">
+				<constant name="stick"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+			<control name="Misc Buttons">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+				<button name="P1_BUTTON3"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Decision"/>
+			<label name="P1_BUTTON2" value="Left (Select)"/>
+			<label name="P1_BUTTON3" value="Right (Select)"/>
+			<label name="P1_AD_STICK_X" value="Sweep Left"/>
+			<label name="P1_AD_STICK_X_EXT" value="Sweep Right"/>
+			<label name="P1_AD_STICK_Y" value="Increase Edge "/>
+			<label name="P1_AD_STICK_Y_EXT" value="Decrease Edge"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="whodunit" gamename="Who Dunit (version 8.0)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+This game actually used a mounted lightgun (or light shotgun I should say) but the 'other' flag that we generally tag onto special controls isn't needed as the game plays just fine with an unmounted lightgun and there have been arcade conversions utilizing unmounted guns. 
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Lightgun">
+				<constant name="lightgun"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_LIGHTGUN_X" value="Left"/>
+			<label name="P1_LIGHTGUN_X_EXT" value="Right"/>
+			<label name="P1_LIGHTGUN_Y" value="Up"/>
+			<label name="P1_LIGHTGUN_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

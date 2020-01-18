@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="bogeyman" gamename="Bogey Manor" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+Button A to swing the rod Button B Trick button (this can be used to jump when the player changes shape)or to trick the ghosts 
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="4-way Joystick">
+				<constant name="joy4way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="A"/>
+			<label name="P1_BUTTON2" value="B"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

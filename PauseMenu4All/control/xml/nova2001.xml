@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="nova2001" gamename="Nova 2001 (Japan)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+This game had a pause button (unlabeled on the cpo) but apparently the feature isn't working in mame.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="8-way Top-Fire Joystick">
+				<constant name="joy8way"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="Pause"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

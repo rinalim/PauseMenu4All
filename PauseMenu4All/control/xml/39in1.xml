@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="39in1" gamename="39 in 1 MAME bootleg" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+This is a bootleg pcb that contains many classic vertical arcade games.  Because of this the 'alternating play' flag is invalid and will vary from game to game.  The game kit is a pcb only and thus lacks any official labels.  The manual for this version lists the buttons as 1P-S1 thru 2P-S3.  However, these are simply the jamma pinouts.  Every control panel overlay manufacturer that has since released a overlay for this unit has either left the labels blank or labeled them A, B and C respectively. 
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="A"/>
+			<label name="P1_BUTTON2" value="B"/>
+			<label name="P1_BUTTON3" value="C"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

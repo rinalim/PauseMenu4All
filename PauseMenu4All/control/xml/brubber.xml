@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="brubber" gamename="Burnin' Rubber" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="1">
+	<miscDetails>
+Up and Down act essentially as a gear shift, you don\'t have to hold up or down to go fast or slow.  Also note that you can only jump when going fast.
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="4-way Joystick">
+				<constant name="joy4way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Jump"/>
+			<label name="P1_JOYSTICK_UP" value="Fast"/>
+			<label name="P1_JOYSTICK_DOWN" value="Slow"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

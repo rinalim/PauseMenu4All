@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="joyfulr" gamename="Joyful Road (Japan)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+The original cpo simply had the two joysticks labeled 'car control' and 'hand control' respectively.  It may not be apparent from playing, but the goal of this game is to navigate the car with the left stick, while grabbing things with the right.  
+	</miscDetails>
+	<player number="1" numButtons="0">
+		<controls>
+			<control name="Dual 4-way Joysticks">
+				<constant name="doublejoy4way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_JOYSTICKLEFT_UP" value="Car Up"/>
+			<label name="P1_JOYSTICKLEFT_DOWN" value="Car Down"/>
+			<label name="P1_JOYSTICKLEFT_LEFT" value="Car Left"/>
+			<label name="P1_JOYSTICKLEFT_RIGHT" value="Car Right"/>
+			<label name="P1_JOYSTICKRIGHT_UP" value="Hand Up"/>
+			<label name="P1_JOYSTICKRIGHT_DOWN" value="Hand Down"/>
+			<label name="P1_JOYSTICKRIGHT_LEFT" value="Hand Left"/>
+			<label name="P1_JOYSTICKRIGHT_RIGHT" value="Hand Right"/>
+		</labels>
+	</player>
+</game>

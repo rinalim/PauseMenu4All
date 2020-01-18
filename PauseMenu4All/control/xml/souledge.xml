@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="souledge" gamename="Soul Edge Ver. II (SO4/VER.C)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The original control panel actually has attack with arrows going left and right for 'Attack A' and attack with arrows going up and down for 'Attack B'  On some panels you will see this game with the labels A,B,K,G
+	</miscDetails>
+	<player number="1" numButtons="4">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Attack A"/>
+			<label name="P1_BUTTON2" value="Attack B"/>
+			<label name="P1_BUTTON3" value="Kick"/>
+			<label name="P1_BUTTON4" value="Guard"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

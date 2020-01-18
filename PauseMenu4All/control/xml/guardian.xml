@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="guardian" gamename="Guardians of the 'Hood" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+Press both kicks or punches together to perform a power punch or kick respectively.  
+	</miscDetails>
+	<player number="1" numButtons="5">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fast Punch"/>
+			<label name="P1_BUTTON2" value="Fast Kick"/>
+			<label name="P1_BUTTON3" value="Defense"/>
+			<label name="P1_BUTTON4" value="Strong Punch"/>
+			<label name="P1_BUTTON5" value="Strong Kick"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

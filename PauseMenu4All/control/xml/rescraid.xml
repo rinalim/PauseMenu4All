@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="rescraid" gamename="Rescue Raider" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The CP has the steering stick on the left side, shooting stick on the right.  Mame has it emulated the opposite, so the labels are not mixed up.
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Dual 8-way Joysticks">
+				<constant name="doublejoy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Select Weapons"/>
+			<label name="P1_JOYSTICKLEFT_UP" value="Shooting Up"/>
+			<label name="P1_JOYSTICKLEFT_DOWN" value="Shooting Down"/>
+			<label name="P1_JOYSTICKLEFT_LEFT" value="Shooting Left"/>
+			<label name="P1_JOYSTICKLEFT_RIGHT" value="Shooting Right"/>
+			<label name="P1_JOYSTICKRIGHT_UP" value="Steering Up"/>
+			<label name="P1_JOYSTICKRIGHT_DOWN" value="Steering Down"/>
+			<label name="P1_JOYSTICKRIGHT_LEFT" value="Steering Left"/>
+			<label name="P1_JOYSTICKRIGHT_RIGHT" value="Steering Right"/>
+		</labels>
+	</player>
+</game>

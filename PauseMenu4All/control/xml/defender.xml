@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="defender" gamename="Defender (Red label)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+ Joystick is on left side of control panel with reverse button the the right of it so it can be hit with thumb. Fire and thrust are on right side of control panel with smart bomb, and hyperspace to the left in a 45 degree angle.  In mame you can turn on cheat mode and the controls are automatically re-mapped so that the game is quite playable on a standard 8way joystick.
+	</miscDetails>
+	<player number="1" numButtons="5">
+		<controls>
+			<control name="2-way Joystick (Vertical)">
+				<constant name="vjoy2way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="FIRE"/>
+			<label name="P1_BUTTON2" value="THRUST"/>
+			<label name="P1_BUTTON3" value="SMART BOMB"/>
+			<label name="P1_BUTTON4" value="HYPERSPACE"/>
+			<label name="P1_BUTTON5" value="REVERSE"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+		</labels>
+	</player>
+</game>

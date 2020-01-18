@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="gtmr" gamename="1000 Miglia: Great 1000 Miles Rally (94/07/18)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="1">
+	<miscDetails>
+IMPORTANT NOTE:  This game has several options regarding the control type.  It has an optional brake pedal/button as well as the option to play the game with either a 270 wheel or an 8way joystick.  The controls shown here are the ones used on the dedicated model.  Notice the lack of the brake pedal.  It seems that the brake pedal was used in conversion kits as the dedicated cabinet didn't have one.
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="270 Steering Wheel">
+				<constant name="paddle"/>
+			</control>
+			<control name="Pedal (Microswitch)">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Accelerate"/>
+			<label name="P1_PADDLE" value="Left"/>
+			<label name="P1_PADDLE_EXT" value="Right"/>
+		</labels>
+	</player>
+</game>

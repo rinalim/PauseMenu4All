@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="720" gamename="720 Degrees (rev 4)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+OTHER: The 720 controller is unique.  It is an optical sensed spinner with a joystick handle.  The controller had two encoder wheels on the same axis; one was like a normal spinner encode wheel with 72 spokes &amp; 72 gaps, the other encoder wheel had only two gaps spaced as far as alternating gaps on the normal encoder wheel (ie: instead of gap, spoke, gap, spoke, gap like on the normal wheel, the middle gap was part of the one fat spoke seperating the two gaps on the ends).  The normal encoder wheel turns the character in the game, the other encoder wheel is to help keep the stick calibrated with the screen, on each rotation of the stick. Mame only emulates the normal wheel as a dial type input; the other is ignored.  The character in the game can face 16 directions: the 4 cardinal directions, the 4 normal diagonals, and the 8 directions inbetween the cardinals and the diagonals.  The Kick button makes the character skate faster (in case that's not clear).  Both buttons are mirrored on opposite sides of the 'joystick' spinner, but like most mirror cases, they are wired as a total of only two buttons.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Spinner">
+				<constant name="dial"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Kick"/>
+			<label name="P1_BUTTON2" value="Jump"/>
+			<label name="P1_DIAL_EXT" value="Rotate Right"/>
+			<label name="P1_DIAL" value="Rotate Left"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="roadrunn" gamename="Road Runner (rev 2)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Mame includes buttons 2 &amp; 3, but they are not used.    The original game has the hop button mirrored on both sides of the joystick.  The left side jump button is also 1 player start button; mame emulates this as two buttons, button1 and start1.  The right side hop button is also 2 players start button; mame emulates this as only the 'start2' button, even though pressing mame's start2 button also makes RoadRunner hop.  The original joystick was a Hall Effect joystick: an analog joystick that used magnetics to vary the resistance instead of the usual POT.
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="Analog Stick">
+				<constant name="stick"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Hop"/>
+			<label name="P1_BUTTON2" value="??not used"/>
+			<label name="P1_BUTTON3" value="??not used"/>
+			<label name="P1_AD_STICK_X" value="Left"/>
+			<label name="P1_AD_STICK_X_EXT" value="Right"/>
+			<label name="P1_AD_STICK_Y" value="Up"/>
+			<label name="P1_AD_STICK_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

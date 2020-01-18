@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="gtmr2" gamename="Mille Miglia 2: Great 1000 Miles Rally (95/05/24)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+This game does NOT use all of these controls.  It has dipswitch settings which allow the games to be controlled with a 360 degree wheel, a 270 degree wheel, a 270 degree digital wheel (using a d2a conveter) and a plain old 8-way joystick with buttons.  Uses with steering wheels please note that the game defaults to joystick input.  Also note that the pedals optionally can be set to analog mode, but mame disables this feature due to input limitations.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="270 Steering Wheel">
+				<constant name="paddle"/>
+			</control>
+			<control name="360 Steering Wheel">
+				<constant name="dial"/>
+			</control>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+			<control name="Pedal (Microswitch)">
+				<constant name="button"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+			<control name="Pedal (Microswitch)">
+				<constant name="button"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Accelerate"/>
+			<label name="P1_BUTTON2" value="Brake"/>
+			<label name="P1_PADDLE" value="Left"/>
+			<label name="P1_PADDLE_EXT" value="Right"/>
+			<label name="P1_DIAL" value="Left"/>
+			<label name="P1_DIAL_EXT" value="Right"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

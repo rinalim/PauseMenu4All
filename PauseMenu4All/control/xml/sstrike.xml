@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="sstrike" gamename="Super Strike Bowling" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The 'trackball' actually consists of a small scale version of the beginning of a bowling alley and a cue ball with various sensors to track it's movement.  This game basically recycles the hardware of Slick Shot into a bowling game.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+			<control name="Trackball">
+				<constant name="trackball"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Right Hook"/>
+			<label name="P1_BUTTON2" value="Left Hook"/>
+			<label name="P1_TRACKBALL_X" value="Left"/>
+			<label name="P1_TRACKBALL_X_EXT" value="Right"/>
+			<label name="P1_TRACKBALL_Y" value="Up"/>
+			<label name="P1_TRACKBALL_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

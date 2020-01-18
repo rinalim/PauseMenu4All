@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="xevious" gamename="Xevious (Namco)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+The labels on the original cpo are the ones in this entry, however they don't really apply to what the buttons do.  Button 1 shoots and Button 2 Fires bombs. Because of this the button labels may be swapped as I don't have access to a real machine.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Zapper"/>
+			<label name="P1_BUTTON2" value="Blaster"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

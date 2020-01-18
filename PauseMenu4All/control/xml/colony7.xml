@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="colony7" gamename="Colony 7 (set 1)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="Mega - Blaster"/>
+			<label name="P1_BUTTON3" value="Eradicator"/>
+			<label name="P1_JOYSTICK_UP" value="Control Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Control Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Control Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Control Right"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="gigawing" gamename="Giga Wing (USA 990222)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Normal shots are made by tapping on the 'Shot' button.  If you hold it down (and you are recharged), you get a temporary 'Reflect Barrier' that reflect all the ememies' shots back at them.  You don't have a max number of times to use the reflect barrier, except there is a fairly short recharge time before you can use it again.    The 'Force Bomb' button is like most shooter's bomb buttons (you have limited number bombs &amp; one bomb is stronger than a normal shot).
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Shot / Hold for Reflect Barrier"/>
+			<label name="P1_BUTTON2" value="Force Bomb"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+		</labels>
+	</player>
+</game>

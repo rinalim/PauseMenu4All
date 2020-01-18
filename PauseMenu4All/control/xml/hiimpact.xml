@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="hiimpact" gamename="High Impact Football (rev LA5 02/15/91)" numPlayers="4" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="1">
+	<miscDetails>
+1 &amp; 2 are the red team, players 3 &amp; 4 are the blue team. If one person plays per team, he calls all the plays. If two people team up and play on the same team: On the offense, players 2 &amp; 3 call the play and control that team's quarterback. On the defense, players 1 &amp; 4 call the play. The action button does everything: pass, handoff, kick, punt, jump, select play. To kick or punt farther, you have to hit the action button quickly. References: CPO http://www.klov.com/game_detail.php?letter=H&amp;game_id=8111 
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Action"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

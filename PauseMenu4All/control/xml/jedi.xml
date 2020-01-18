@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="jedi" gamename="Return of the Jedi" numPlayers="1" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+Triggers fire cannon on all levels.  Thumb buttons usually also fire cannon, except on the AT-Walker stages, where they rotate the turret.
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="Yoke">
+				<constant name="stick"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+				<button name="P1_BUTTON3"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire / Rotate Left"/>
+			<label name="P1_BUTTON2" value="Fire"/>
+			<label name="P1_BUTTON3" value="Fire / Rotate Right"/>
+			<label name="P1_AD_STICK_Y" value="Up"/>
+			<label name="P1_AD_STICK_X_EXT" value="Right"/>
+			<label name="P1_AD_STICK_X" value="Left"/>
+			<label name="P1_AD_STICK_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

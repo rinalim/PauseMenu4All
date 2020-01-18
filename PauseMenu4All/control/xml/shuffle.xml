@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="shuffle" gamename="Shuffleboard" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Please note that the actual cpo shows the generic arrows shooting out from the trackball with the caption 'control puck'  this has been left out for length reasons.  Also the button caption may not exactly be 'game select' but this cpo was screened directly over the metal, and thus it's very difficult to find a completely readable one.
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Trackball">
+				<constant name="trackball"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Game Select"/>
+			<label name="P1_TRACKBALL_X" value="Left"/>
+			<label name="P1_TRACKBALL_X_EXT" value="Right"/>
+			<label name="P1_TRACKBALL_Y" value="Up"/>
+			<label name="P1_TRACKBALL_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

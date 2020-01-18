@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="calibr50" gamename="Caliber 50" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+The joysticks were 'Loop 24' joysticks, which look like the yellow mechanical 'LS-30', except are optical instead of mechanical.  They also had green handles and clicked 24 times to complete a full rotation, hence the 'Loop 24' name.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="8-way Rotary Joystick(Optical)">
+				<constant name="joy8way"/>
+				<constant name="dial"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Rapid Fire"/>
+			<label name="P1_BUTTON2" value="Grenade"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_DIAL" value="Rotate Left"/>
+			<label name="P1_DIAL_EXT" value="Rotate Right"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="ballbros" gamename="Balloon Brothers" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+Mame has 3 buttons mapped but the game only has 1.
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="4-way Joystick">
+				<constant name="joy4way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Rotate"/>
+			<label name="P1_BUTTON2" value="Unknown"/>
+			<label name="P1_BUTTON3" value="Unknown"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_DOWN" value=""/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

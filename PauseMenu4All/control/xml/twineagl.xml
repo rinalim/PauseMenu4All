@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="twineagl" gamename="Twin Eagle - Revenge Joe's Brother" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="1">
+	<miscDetails>
+The conversion kit came with ?Button? and ?Missile? labels even though the flyer and the conversion manual state they are ?Bomb? and ?Missile? buttons
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Missile"/>
+			<label name="P1_BUTTON2" value="Bomb"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

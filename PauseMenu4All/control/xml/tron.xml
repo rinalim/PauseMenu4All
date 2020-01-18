@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="tron" gamename="Tron (8/9)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="1">
+	<miscDetails>
+The joystick in this game was unique.  It was an 8-way leaf joystick with a larqe actuator and a diagonal 4-way restrictor making it possible (but difficult) to hit the diagonals.  The 4-way mode was useful for the Tanks stage, and necessary for the Light Cycle stage.  Controls worked as follows: Light Cycles: The joystick controls the direction of travel and the trigger controls the speed of the bike. Grid Bugs: The stick controls the movement of your character and the spinner controls the direction of fire. Tanks: The stick controls the movement of your tank and the spinner controls the direction of fire. MCP Cone: The stick controls the movement of your character and the spinner controls the direction of fire.
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="8-way Triggerstick">
+				<constant name="joy8way"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+			<control name="Spinner">
+				<constant name="dial"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_DIAL" value="Aim Left"/>
+			<label name="P1_DIAL_EXT" value="Aim Right"/>
+		</labels>
+	</player>
+</game>

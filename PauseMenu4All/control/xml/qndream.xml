@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="qndream" gamename="Quiz Nanairo Dreams: Nijiirochou no Kiseki (Japan 960826)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Like all capcom quiz games, this game's cp uses regular push buttons instead of trivia-style buttons.
+	</miscDetails>
+	<player number="1" numButtons="4">
+		<controls>
+			<control name="Just Buttons">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+				<button name="P1_BUTTON3"/>
+				<button name="P1_BUTTON4"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="1"/>
+			<label name="P1_BUTTON2" value="2"/>
+			<label name="P1_BUTTON3" value="3"/>
+			<label name="P1_BUTTON4" value="4"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="dragngun" gamename="Dragon Gun (US)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+This game is probably the only game that features talking guns.  You heard me right, the 'drag-guns' in this game had speakers that spouted out advice during gameplay.  
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Analog Gun">
+				<constant name="lightgun"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="Dragon Bomb"/>
+			<label name="P1_LIGHTGUN_Y" value="Up"/>
+			<label name="P1_LIGHTGUN_X_EXT" value="Right"/>
+			<label name="P1_LIGHTGUN_X" value="Left"/>
+			<label name="P1_LIGHTGUN_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

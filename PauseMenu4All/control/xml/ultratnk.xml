@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="ultratnk" gamename="Ultra Tank" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Dual 2-way Triggersticks (Vertical)">
+				<constant name="vdoublejoy2way"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_JOYSTICKLEFT_UP" value="Up"/>
+			<label name="P1_JOYSTICKLEFT_DOWN" value="Down"/>
+			<label name="P1_JOYSTICKRIGHT_UP" value="Up"/>
+			<label name="P1_JOYSTICKRIGHT_DOWN" value="Down"/>
+		</labels>
+	</player>
+</game>

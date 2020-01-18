@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="wacko" gamename="Wacko" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="1">
+	<miscDetails>
+The trackball moves the player.  There are two 4-way joysticks, one one each side of the trackball, but they are both wired to the same input.  Mame maps both sticks to the left stick of a dual stick combo to avoid the conflicting default keyboard mapping of the normal joystick and the trackball; mame's right stick input type is not used.  (Note for HowardC:  Accepted for now, but I'll try to get the mame devs to accept a fixed one.  Remapping to avoid conflict is silly as almost everyone maps the 'left joystick' to match their regular joystick. Now if it was mapped to joystick right then I could have seen it.)  Keep an eye on this game for driver changes.  
+	</miscDetails>
+	<player number="1" numButtons="0">
+		<controls>
+			<control name="Dual 4-way Joysticks">
+				<constant name="doublejoy4way"/>
+			</control>
+			<control name="Trackball">
+				<constant name="trackball"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_JOYSTICKRIGHT_RIGHT" value="-"/>
+			<label name="P1_JOYSTICKRIGHT_LEFT" value="-"/>
+			<label name="P1_JOYSTICKRIGHT_DOWN" value="-"/>
+			<label name="P1_JOYSTICKRIGHT_UP" value="-"/>
+			<label name="P1_JOYSTICKLEFT_RIGHT" value="Zap Right"/>
+			<label name="P1_JOYSTICKLEFT_LEFT" value="Zap Left"/>
+			<label name="P1_JOYSTICKLEFT_DOWN" value="Zap Down"/>
+			<label name="P1_JOYSTICKLEFT_UP" value="Zap Up"/>
+			<label name="P1_TRACKBALL_X" value="Krooz Left"/>
+			<label name="P1_TRACKBALL_Y" value="Krooz Up"/>
+			<label name="P1_TRACKBALL_X_EXT" value="Krooz Right"/>
+			<label name="P1_TRACKBALL_Y_EXT" value="Krooz Down"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="topspeed" gamename="Top Speed (World)" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+This game has a ton of extra inputs that show up do to a digital hack.  Ignore them as buttons 1-4 is all you need.
+	</miscDetails>
+	<player number="1" numButtons="4">
+		<controls>
+			<control name="270 Steering Wheel">
+				<constant name="paddle"/>
+			</control>
+			<control name="High-Low Shifter">
+				<constant name="button"/>
+				<button name="P1_BUTTON4"/>
+			</control>
+			<control name="Pedal (Microswitch)">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+			<control name="Pedal (Microswitch)">
+				<constant name="button"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Accelerate"/>
+			<label name="P1_BUTTON2" value="Brake"/>
+			<label name="P1_BUTTON3" value="Nitro"/>
+			<label name="P1_BUTTON4" value="Hi / Lo"/>
+			<label name="P1_PADDLE" value="Left"/>
+			<label name="P1_PADDLE_EXT" value="Right"/>
+		</labels>
+	</player>
+</game>

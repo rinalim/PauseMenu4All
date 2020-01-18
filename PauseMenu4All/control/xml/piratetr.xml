@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="piratetr" gamename="Pirate Treasure" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="1">
+	<miscDetails>
+The games cpo didn't have any directional arrows, nor did it have any labels, probably due to the simplistic layout.
+	</miscDetails>
+	<player number="1" numButtons="0">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

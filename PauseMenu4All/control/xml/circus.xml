@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="circus" gamename="Circus / Acrobat TV" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The original cpo didn't have any labels for the paddle, but rather the instructions:  'Bounce Man From Board.  Pop Balloons For Points'  The game also listed the scoring chart on the cpo.  
+	</miscDetails>
+	<player number="1" numButtons="0">
+		<controls>
+			<control name="Paddle (Horizontal)">
+				<constant name="paddle"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_PADDLE" value="Left"/>
+			<label name="P1_PADDLE_EXT" value="Right"/>
+		</labels>
+	</player>
+</game>

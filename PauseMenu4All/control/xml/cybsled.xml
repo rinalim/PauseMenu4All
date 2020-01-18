@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="cybsled" gamename="Cyber Sled (US)" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+This game used dual analog flight sticks.  The Fire and Missile buttons are mirrored on both sticks, while the view point button is a lighted button on the control panel.  It should be noted that this game was only sold as a dual cabinet with two boards linked together for head-2-head action, however due to limitations mame only emulates the first board and will probably never emulate the dual mode.  
+	</miscDetails>
+	<player number="1" numButtons="4">
+		<controls>
+			<control name="Flightstick (Analog)">
+				<constant name="stick"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+			<control name="Flightstick (Analog)">
+				<constant name="stick"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+			<control name="Misc Buttons">
+				<constant name="button"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="Missile"/>
+			<label name="P1_BUTTON3" value="View Point"/>
+			<label name="P1_BUTTON4" value="unknown"/>
+			<label name="P1_AD_STICK_X" value="Left Tread Left"/>
+			<label name="P1_AD_STICK_X_EXT" value="Left Tread Right"/>
+			<label name="P1_AD_STICK_Y" value="Left Tread Forward"/>
+			<label name="P1_AD_STICK_Y_EXT" value="Left Tread Backward"/>
+			<label name="P2_AD_STICK_X" value="Right Tread Left"/>
+			<label name="P2_AD_STICK_X_EXT" value="Right Tread Right"/>
+			<label name="P2_AD_STICK_Y" value="Right Tread Forward"/>
+			<label name="P2_AD_STICK_Y_EXT" value="Right Tread Backward"/>
+		</labels>
+	</player>
+</game>

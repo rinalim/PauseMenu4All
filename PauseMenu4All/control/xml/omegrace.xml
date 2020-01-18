@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="omegrace" gamename="Omega Race (set 1)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="1">
+	<miscDetails>
+This game acutally uses one of the very rare optical dials.  No it doesn't really spin, you turn it like a paddle.  Ironically, I believe that this was one of mame's first optical games and thus the 2 way optical was named 'dial' instead of 'spinner,' which is what most optical mame games have.  
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+			<control name="Spinner">
+				<constant name="dial"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="Thrust"/>
+			<label name="P1_DIAL" value="Left"/>
+			<label name="P1_DIAL_EXT" value="Right"/>
+		</labels>
+	</player>
+</game>

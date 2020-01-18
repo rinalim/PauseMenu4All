@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="blueprnt" gamename="Blue Print (Midway)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="1">
+	<miscDetails>
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Run"/>
+			<label name="P1_JOYSTICK_UP" value="Walk Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Walk Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Walk Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Walk Right"/>
+		</labels>
+	</player>
+</game>

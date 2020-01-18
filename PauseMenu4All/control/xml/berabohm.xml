@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="berabohm" gamename="Beraboh Man (Japan version C)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Original game has 2 pressure sensitive buttons but mame is hacked to 4 buttons.  To do the hard attack, press buttons 1 and 2 together, for high jump, press buttons 3 and 4 together.  Taken from the driver (namcos1.c)   Notes: The berabohm buttons don't work too well. The real thing has a special pressure sensitive button, with two switches. The harder you push the button, the faster the two switches are closed one after another. Due to MAME's limited input sample rate (once per frame) it is difficult to measure the time between the two.  Buttons (pressure sensitive) each button has two switches: the first is closed as soon as the button is pressed, the second a little later, depending on how hard the button is pressed. 	bits 0-5 control strength (0x00 = max 0x3f = min) 	bit 6 indicates the button is pressed 	bit 7 is not actually read by the game but I use it to simulate the second switch 
+	</miscDetails>
+	<player number="1" numButtons="4">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Attack"/>
+			<label name="P1_BUTTON2" value="Hard Attack"/>
+			<label name="P1_BUTTON3" value="Jump"/>
+			<label name="P1_BUTTON4" value="High Jump"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

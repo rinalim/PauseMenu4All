@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="viper" gamename="Viper" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+This game actually uses two trigger sticks that are mounted stationary on the montior, which moves as you pull on the sticks.  As you pull, the area of the screen moves as well.  This gives the illusion that you are manning a gun turrent.  Each stick has two thumb buttons but there are only two inputs.  To confuse things even more, both inputs do the same thing.  (Fire)
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Trackball">
+				<constant name="trackball"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="Fire"/>
+			<label name="P1_TRACKBALL_X" value="Left"/>
+			<label name="P1_TRACKBALL_X_EXT" value="Right"/>
+			<label name="P1_TRACKBALL_Y" value="Up"/>
+			<label name="P1_TRACKBALL_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

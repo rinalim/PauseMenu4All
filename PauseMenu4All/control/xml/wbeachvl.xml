@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="wbeachvl" gamename="World Beach Volley (set 1)" numPlayers="4" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+3rd button is mapped but not known what it does
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Hit"/>
+			<label name="P1_BUTTON2" value="Jump"/>
+			<label name="P1_BUTTON3" value="Unknown"/>
+			<label name="P1_JOYSTICK_UP" value="Up-Left"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down-Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left-Down"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right-Up"/>
+		</labels>
+	</player>
+</game>

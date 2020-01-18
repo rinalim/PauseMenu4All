@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="paperboy" gamename="Paperboy (rev 3)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Game used a handlebar controller, Pushing forward on the handles made the bike speed up, pulling back slowed it down.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+			<control name="Handlebar">
+				<constant name="stickx"/>
+			</control>
+			<control name="Throttle (Handlebar)">
+				<constant name="sticky"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Throw"/>
+			<label name="P1_BUTTON2" value="Throw"/>
+			<label name="P1_AD_STICK_X_EXT" value="Right"/>
+			<label name="P1_AD_STICK_X" value="Left"/>
+			<label name="P1_AD_STICK_Y_EXT" value="Break"/>
+			<label name="P1_AD_STICK_Y" value="Accelerate"/>
+		</labels>
+	</player>
+</game>

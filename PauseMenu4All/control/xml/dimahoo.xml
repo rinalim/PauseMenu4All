@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="dimahoo" gamename="Dimahoo (Euro 000121)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Although in mame the game has three buttons, and all 3 work, button 3 is redundant and mirrors button 1.  On the actual game (sold in kit form only) only two buttons are used and this is confirmed on the instruction card for the game.  
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Shoot"/>
+			<label name="P1_BUTTON2" value="Bomb"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+		</labels>
+	</player>
+</game>

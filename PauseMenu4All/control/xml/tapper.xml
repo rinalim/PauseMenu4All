@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="tapper" gamename="Tapper (Budweiser)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="1">
+	<miscDetails>
+This game used a real beer tap instead of a shifter.  You pull down on the tap to pour and release to serve. In mame it's emulated as a single button. 
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="4-way Joystick">
+				<constant name="joy4way"/>
+			</control>
+			<control name="High-Low Shifter">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Pour / Serve"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="wcbowl" gamename="World Class Bowling (v1.66)" numPlayers="4" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+When looking in the tab menu it would seem the game is only 2 player, however it is a 4 player game with each player entering the game by pressing the Player1 start button (on the control panel it is just a Start button).  Player 2 start button is mapped but doesn?t do anything
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Trackball">
+				<constant name="trackball"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Hook Left"/>
+			<label name="P1_BUTTON2" value="Hook Right"/>
+			<label name="P1_TRACKBALL_X" value="Left"/>
+			<label name="P1_TRACKBALL_X_EXT" value="Right"/>
+			<label name="P1_TRACKBALL_Y" value="Up"/>
+			<label name="P1_TRACKBALL_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

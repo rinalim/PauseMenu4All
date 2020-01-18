@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="kick" gamename="Kick (upright)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+Teh roller on this game is made from a trackball ball, but this is not uncommon.
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Misc Buttons">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+			<control name="Roller(Horizontal)">
+				<constant name="dial"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Press to Kick"/>
+			<label name="P1_DIAL" value="Left"/>
+			<label name="P1_DIAL_EXT" value="Right"/>
+		</labels>
+	</player>
+</game>

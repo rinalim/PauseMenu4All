@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="aafb" gamename="All American Football (rev E)" numPlayers="4" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The joystick controls the player movement while the kicker is for kicking and passing.
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+			<control name="Football Kicker">
+				<constant name="stick"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Action"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_AD_STICK_X" value="Aim Left"/>
+			<label name="P1_AD_STICK_X_EXT" value="Aim Right"/>
+			<label name="P1_AD_STICK_Y" value="Short"/>
+			<label name="P1_AD_STICK_Y_EXT" value="Long"/>
+		</labels>
+	</player>
+</game>

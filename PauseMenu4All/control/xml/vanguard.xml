@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="vanguard" gamename="Vanguard (SNK)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+The buttons on this control panel are arranged in a diamond shape.  As each button fires in a different direction it is very difficult to play this game without a diamond patterened layout.  Also the joystick is labeled control, but for obvious reasons the labels in this entry have the usual labeling.
+	</miscDetails>
+	<player number="1" numButtons="4">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire Back"/>
+			<label name="P1_BUTTON2" value="Fire Forward"/>
+			<label name="P1_BUTTON3" value="Fire Down"/>
+			<label name="P1_BUTTON4" value="Fire Up"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

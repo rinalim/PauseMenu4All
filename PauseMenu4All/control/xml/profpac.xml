@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="profpac" gamename="Professor Pac-Man" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="1">
+	<miscDetails>
+Something of note is that on this layout the first player is on the right side instead of the left.    Note:  As of mame 0.83 this game isn't working yet... I am just preparing for when it does.  :)
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="Trivia Buttons">
+				<constant name="button"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="A"/>
+			<label name="P1_BUTTON2" value="B"/>
+			<label name="P1_BUTTON3" value="C"/>
+		</labels>
+	</player>
+</game>

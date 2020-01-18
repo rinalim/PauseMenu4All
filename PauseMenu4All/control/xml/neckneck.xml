@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="neckneck" gamename="Neck-n-Neck (v1.2)" numPlayers="6" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Even though this game allows 6 players, it is wired to a single player layout in mame, due to the odd layout.  Each numbered button represents a horse a player can control.  it also doubles as a start button for that player.  All the button does is jump.  There is also a global start button that starts the race without giving others time to join.  This is mapped to player 1 start in mame.  
+	</miscDetails>
+	<player number="1" numButtons="6">
+		<controls>
+			<control name="Misc">
+				<constant name="other"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+			<control name="Misc Buttons">
+				<constant name="button"/>
+				<button name="P1_BUTTON2"/>
+				<button name="P1_BUTTON3"/>
+				<button name="P1_BUTTON4"/>
+				<button name="P1_BUTTON5"/>
+				<button name="P1_BUTTON6"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="1"/>
+			<label name="P1_BUTTON2" value="2"/>
+			<label name="P1_BUTTON3" value="3"/>
+			<label name="P1_BUTTON4" value="4"/>
+			<label name="P1_BUTTON5" value="5"/>
+			<label name="P1_BUTTON6" value="6"/>
+		</labels>
+	</player>
+</game>

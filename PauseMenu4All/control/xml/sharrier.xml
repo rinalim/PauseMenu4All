@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="sharrier" gamename="Space Harrier (Rev A, 8751 315-5163A)" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+If you are wondering why there are three 'shot' buttons, you are not alone.  The trigger on the flight stick shoots and there are two buttons on the control panel that also shoot.  They all have the same function, but for documentation's sake all three will be included.
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="Flightstick (Analog)">
+				<constant name="stick"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Shot"/>
+			<label name="P1_BUTTON2" value="Shot"/>
+			<label name="P1_BUTTON3" value="Shot"/>
+			<label name="P1_AD_STICK_X" value="Left"/>
+			<label name="P1_AD_STICK_X_EXT" value="Right"/>
+			<label name="P1_AD_STICK_Y" value="Up"/>
+			<label name="P1_AD_STICK_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

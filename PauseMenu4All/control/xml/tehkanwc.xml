@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="tehkanwc" gamename="Tehkan World Cup (set 1)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Two buttons were usually wired to the same single button input per player, one on each side of the TB.  Mame has a hack so you can play with 8-way joyaticks, but the original had trackballs; mame also has the trackballs, but since no keys are mapped to the TBs (to enable the joystick hack), the TBs don't show in the tab input menu.  There apparently were joystick bootlegs of this game; mame only has one version, so the bootlegs might have been hardware hacks no just the inputs (or mame is missing the different ROMs).
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Trackball">
+				<constant name="trackball"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Kick"/>
+			<label name="P1_TRACKBALL_X" value="Left"/>
+			<label name="P1_TRACKBALL_X_EXT" value="Right"/>
+			<label name="P1_TRACKBALL_Y" value="Up"/>
+			<label name="P1_TRACKBALL_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

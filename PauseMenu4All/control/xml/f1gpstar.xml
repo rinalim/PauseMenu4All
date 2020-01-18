@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="f1gpstar" gamename="Grand Prix Star" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+	</miscDetails>
+	<player number="1" numButtons="4">
+		<controls>
+			<control name="Pedal (Microswitch)">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+			<control name="High-Low Shifter">
+				<constant name="button"/>
+				<button name="P1_BUTTON3"/>
+				<button name="P1_BUTTON4"/>
+			</control>
+			<control name="270 Steering Wheel">
+				<constant name="paddle"/>
+			</control>
+			<control name="Pedal (Microswitch)">
+				<constant name="button"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Accelerate"/>
+			<label name="P1_BUTTON2" value="Brake"/>
+			<label name="P1_BUTTON3" value="Lo"/>
+			<label name="P1_BUTTON4" value="Hi"/>
+			<label name="P1_PADDLE_EXT" value="Right"/>
+			<label name="P1_PADDLE" value="Left"/>
+		</labels>
+	</player>
+</game>

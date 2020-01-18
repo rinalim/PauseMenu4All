@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="starcas" gamename="Star Castle (version 3)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Mame simulates this game using a 2-way joystick, but the actual game used Directional buttons labeled Left and Right. There was also a Rock-Ola version of the Control Panel (black background) which used pictograms for the button labels.  Controls were the same, however.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Directional Buttons(2-way left/right)">
+				<constant name="joy2way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="Thrust"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+		</labels>
+	</player>
+</game>

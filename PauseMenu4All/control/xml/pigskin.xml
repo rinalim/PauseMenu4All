@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="pigskin" gamename="Pigskin 621AD" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+OTHER: This game used a 49-way joystick.  This game was recently updated to accomidate true analog inputs to better emulate the 49-way joystick.  Unfortunately, they turned an othewise tidy driver into an ungodly mess.  The stick is there and oddly enough three joystick directions (up, down, and only left) and now the normal 'button 1' labels are overwritten with the game selection labels, which are secondary functions and should NOT be the custom labels for the buttons.    For the love of all things good, someone PLEASE fix this driver.  The joystick controls one player, but when you punch, the rest of the team also punches.  If another teammate has the ball and you press the pass button, he passes the ball to you.  If you have the ball and press and hold the pass button, the choices rolls between long, short, back passes, and a drop kick, which happens when you let go of the button.  
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="49-way Joystick">
+				<constant name="stick"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Punch"/>
+			<label name="P1_BUTTON2" value="Pass"/>
+			<label name="P1_BUTTON3" value="Team Attitude"/>
+			<label name="P1_AD_STICK_X" value="Left"/>
+			<label name="P1_AD_STICK_X_EXT" value="Right"/>
+			<label name="P1_AD_STICK_Y" value="Up"/>
+			<label name="P1_AD_STICK_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

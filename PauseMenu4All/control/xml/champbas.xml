@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="champbas" gamename="Champion Base Ball" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+The actual cpo labels simply read A, B, and C respectively.  The bezel, however, tells you the functions.  Since part of this projects goal is to aid in figuring out how to play, I improvised and combined the two.  
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="A: Change Batter, Pitcher"/>
+			<label name="P1_BUTTON2" value="B: Bat, Extra Bases - Pitch, Throw Ball"/>
+			<label name="P1_BUTTON3" value="C: Steal, Run Back"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

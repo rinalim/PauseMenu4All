@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="galpani2" gamename="Gals Panic II (Asia)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+This game didn't actually label the button and in all the docs it's referred to as button 1, however it is clear what this button does.  I labeled it 'cut' to avoid confusion as 'button 1' may seem like a parsing error to the average viewer.  Also take note that the pcb has inputs for three physical buttons and they are emulated in mame, but only the first is used. 
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Cut"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

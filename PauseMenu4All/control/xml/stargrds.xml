@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="stargrds" gamename="Star Guards" numPlayers="3" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+The player start buttons double as the 'Weapon' button and the cpo labels it so.
+	</miscDetails>
+	<player number="1" numButtons="0">
+		<controls>
+			<control name="Dual 8-way Joysticks">
+				<constant name="doublejoy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_JOYSTICKLEFT_UP" value="Move Up"/>
+			<label name="P1_JOYSTICKLEFT_DOWN" value="Move Down"/>
+			<label name="P1_JOYSTICKLEFT_LEFT" value="Move Left"/>
+			<label name="P1_JOYSTICKLEFT_RIGHT" value="Move Right"/>
+			<label name="P1_JOYSTICKRIGHT_UP" value="Shoot Up"/>
+			<label name="P1_JOYSTICKRIGHT_DOWN" value="Shoot Down"/>
+			<label name="P1_JOYSTICKRIGHT_LEFT" value="Shoot Left"/>
+			<label name="P1_JOYSTICKRIGHT_RIGHT" value="Shoot Right"/>
+		</labels>
+	</player>
+</game>

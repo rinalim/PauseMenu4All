@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="ripoff" gamename="Rip Off" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+This is a two player cooperative game.  You cannot shoot the other player, but if you crash into him, you both blow up.  Prevent the small tanks from stealing the triangular fuel pods by shooting them. The game ends when all the pods are gone.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Directional Buttons(2-way left/right)">
+				<constant name="joy2way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="Forward"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

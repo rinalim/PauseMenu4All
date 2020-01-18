@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="llander" gamename="Lunar Lander (rev 2)" numPlayers="1" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+The original used a large handle connected to a potentiometer for Thrust control.   The select game button is actually player 2 start.  so to toggle through games press p2 start and then p1 start when you are ready to play.  
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Directional Buttons(2-way left/right)">
+				<constant name="joy2way"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+			<control name="Paddle (Vertical)">
+				<constant name="vpaddle"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Abort"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_PADDLE_V" value="Increase Thrust"/>
+			<label name="P1_PADDLE_V_EXT" value="Decrease Thrust"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="offroad" gamename="Ironman Ivan Stewart's Super Off-Road" numPlayers="3" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+There are no Start buttons; the Nitro buttons double as the Start buttons.  You also use the the Nitro buttons to select improvements on your car.  'Player 1' is the Red car, 'Player 2' is the Yellow car, 'Player 3' is the Blue car.  The game refers the players as 'Red Player', 'Yellow Player', 'Blue Player', not 'Player 1', etc.  There are also two player cabs of this game, but all they did was remove the Yellow car's inputs, including the coin inputs.  There are no dipswitches to change.  So on these cabs, the 'second player' is the blue car, but all the inputs are connected to what is still 'Player 3' in mame.  To eneter service mode, hold down Blue Nitro button and press service button.  The menus are scrolled down by pressing the Red Nitro button, and selected by pressing the Blue Nitro button.
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="360 Steering Wheel">
+				<constant name="dial"/>
+			</control>
+			<control name="Pedal (Analog)">
+				<constant name="pedal"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Nitro / Start"/>
+			<label name="P1_DIAL_EXT" value="Right"/>
+			<label name="P1_DIAL" value="Left"/>
+			<label name="P1_PEDAL" value="Accelerate"/>
+		</labels>
+	</player>
+</game>

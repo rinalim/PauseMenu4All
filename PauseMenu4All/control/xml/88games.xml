@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="88games" gamename="'88 Games" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+This is a 4 player team type game where 2 players compete each time
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="Just Buttons">
+				<constant name="button"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Run"/>
+			<label name="P1_BUTTON2" value="Jump"/>
+			<label name="P1_BUTTON3" value="Run"/>
+		</labels>
+	</player>
+</game>

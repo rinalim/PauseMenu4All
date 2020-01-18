@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="frogs" gamename="Frogs" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+It really was a three way joystick, basically a 4-way stick without a down.  The button flicked out your frog's tongue. *update*    I looked into this.  This game was generally hacked into an old frogger cab.  The jump button was hacked into the 4way up and a tongue button was added.  However mame uses a two way joystick and two buttons to emulate the hardware (which is correct input wise) so we reflect these constants in the database.  As it's sorta a bootleg there isn't much point in worrying about control accuracy. 
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="2-way Joystick (Horizontal)">
+				<constant name="joy2way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Tongue"/>
+			<label name="P1_BUTTON2" value="Jump"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+		</labels>
+	</player>
+</game>

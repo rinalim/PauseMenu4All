@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="cloak" gamename="Cloak &amp; Dagger (rev 5)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Dual 8-way Joysticks">
+				<constant name="doublejoy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Light Fuse"/>
+			<label name="P1_JOYSTICKLEFT_UP" value="Up"/>
+			<label name="P1_JOYSTICKLEFT_DOWN" value="Down"/>
+			<label name="P1_JOYSTICKLEFT_LEFT" value="Left"/>
+			<label name="P1_JOYSTICKLEFT_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICKRIGHT_UP" value="Fire Up"/>
+			<label name="P1_JOYSTICKRIGHT_DOWN" value="Fire Down"/>
+			<label name="P1_JOYSTICKRIGHT_LEFT" value="Fire Left"/>
+			<label name="P1_JOYSTICKRIGHT_RIGHT" value="Fire Right"/>
+		</labels>
+	</player>
+</game>

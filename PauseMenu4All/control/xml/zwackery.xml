@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="zwackery" gamename="Zwackery" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+This game has an identical control panel layout as discs of tron.  Unfortunately due to the fact that it's a platformer, it is extremely akward to play unless you have those exact controls.
+	</miscDetails>
+	<player number="1" numButtons="4">
+		<controls>
+			<control name="8-way Triggerstick">
+				<constant name="joy8way"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+			<control name="Push/Pull Spinner">
+				<constant name="dial"/>
+				<button name="P1_BUTTON3"/>
+				<button name="P1_BUTTON4"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Sword"/>
+			<label name="P1_BUTTON2" value="Shield"/>
+			<label name="P1_BUTTON3" value="Pick Up"/>
+			<label name="P1_BUTTON4" value="Cast Spell"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Run Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Run Right"/>
+			<label name="P1_DIAL" value="Aim Sword Left"/>
+			<label name="P1_DIAL_EXT" value="Aim Sword Right"/>
+		</labels>
+	</player>
+</game>

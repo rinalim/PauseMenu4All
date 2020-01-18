@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="hotrod" gamename="Hot Rod (World, 3 Players, Turbo set 1, Floppy Based)" numPlayers="3" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+	</miscDetails>
+	<player number="1" numButtons="0">
+		<controls>
+			<control name="360 Steering Wheel">
+				<constant name="dial"/>
+			</control>
+			<control name="Pedal (Analog)">
+				<constant name="pedal"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_DIAL" value="Left"/>
+			<label name="P1_DIAL_EXT" value="Right"/>
+			<label name="P1_PEDAL" value="Accelerate"/>
+		</labels>
+	</player>
+</game>

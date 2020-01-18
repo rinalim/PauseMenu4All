@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="speedfrk" gamename="Speed Freak" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Speed is controlled by the shifter.  Pressing the pedal makes the car move forward at the selected speed.  Stay on the road and avoid all cars to avoid crashing.
+	</miscDetails>
+	<player number="1" numButtons="0">
+		<controls>
+			<control name="360 Steering Wheel">
+				<constant name="dial"/>
+			</control>
+			<control name="4 Gear Shifter">
+				<constant name="button"/>
+			</control>
+			<control name="Pedal (Microswitch)">
+				<constant name="button"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_DIAL" value="Left"/>
+			<label name="P1_DIAL_EXT" value="Right"/>
+		</labels>
+	</player>
+</game>

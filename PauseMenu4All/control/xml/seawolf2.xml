@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="seawolf2" gamename="Seawolf II" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The 'paddle' is actually a periscope you look through and turn. The field of view you have when looking through the scope helps you aim. Mame displays a cross hair to help you aim, you can turn it off with the F1 key.
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+			<control name="Paddle (Horizontal)">
+				<constant name="paddle"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire Torpedo"/>
+			<label name="P1_PADDLE" value="Left"/>
+			<label name="P1_PADDLE_EXT" value="Right"/>
+		</labels>
+	</player>
+</game>

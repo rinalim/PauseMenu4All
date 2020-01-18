@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="f1en" gamename="F1 Exhaust Note" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+This game uses formula one style shifter buttons, which are mounted behind the steering wheel. 
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="270 Steering Wheel">
+				<constant name="paddle"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+			<control name="Pedal (Analog)">
+				<constant name="pedal"/>
+			</control>
+			<control name="Pedal2 (Analog)">
+				<constant name="pedal2"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Gear Down"/>
+			<label name="P1_BUTTON2" value="Gear Up"/>
+			<label name="P1_PADDLE" value="Left"/>
+			<label name="P1_PADDLE_EXT" value="Right"/>
+			<label name="P1_PEDAL" value="Accelerate"/>
+			<label name="P1_PEDAL2" value="Brake"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="boothill" gamename="Boot Hill" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+This game did NOT have a paddle but something, that for lack of a better description, is a 'paddle gun'.  It's similar to the T2 analog guns but with a single axis.  
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+			<control name="Paddle (Horizontal)">
+				<constant name="paddle"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_PADDLE" value="Aim Left"/>
+			<label name="P1_PADDLE_EXT" value="Aim Right"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="bkraidj" gamename="Battle Bakraid (Japan) (Wed Apr 7 1999)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+At the ship select screen: To select a 'main shot power type' fighter, select your ship with A button, To select a 'Bomber power type', select your ship with B button, To select a 'Side shot power type', select your ship with C button, To select a 'Speed up type', select your ship with Start button.  During game A - Shoot, B - Bomb
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="A"/>
+			<label name="P1_BUTTON2" value="B"/>
+			<label name="P1_BUTTON3" value="C"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

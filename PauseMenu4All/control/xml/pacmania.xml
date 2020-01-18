@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="pacmania" gamename="Pac-Mania" numPlayers="1" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The original CP had one button on either side of the CP for Bounce. Note By HowarC:  This seems to be a glitch in mame caused by a sloppy macro.  For now three buttons is ok, but I will submit a new driver which ditches the other two.
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="4-way Joystick">
+				<constant name="joy4way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Bounce"/>
+			<label name="P1_BUTTON2" value="Bounce"/>
+			<label name="P1_BUTTON3" value="Bounce"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+		</labels>
+	</player>
+</game>

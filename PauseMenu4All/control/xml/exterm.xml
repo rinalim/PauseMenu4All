@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="exterm" gamename="Exterminator" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+OTHER: The 8-way trigger stick also can be rotated left or right.  (Label 'Rotate Left', and 'Rotate Right')  The rotation is analog, while the rest of the stick is a digital 8-way trigger stick.  Mame uses the DIAL type for this input.  Mame by default maps the rotate left &amp; right to the same inputs as move left and move right, and the game plays fairly well with this setup.  To fire, you are supposed to move all the way to your side, press the fire button, and control the direction you shoot by rotating the trigger stick and moving it up and down.  As long as you hold the fire button, you can't move away from the edge.   NOTE: This entry has been modified to use a rotary optical joystick with a top fire button.  This is the closest to the controls the game originally had, unfortunately a top fire rotary does not exist.  You could, however, take a top fire handle and mount it into a rotary base, in theory at least.   There is a cheat that lets you shoot all the time (making the 'fire/grab' button just a fire button).
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="8-way Rotary Joystick(Optical)">
+				<constant name="joy8way"/>
+				<constant name="dial"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire / Grap"/>
+			<label name="P1_BUTTON2" value="Pound"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Move Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Move Left"/>
+			<label name="P1_JOYSTICK_DOWN" value="Move Down"/>
+			<label name="P1_JOYSTICK_UP" value="Move Up"/>
+			<label name="P1_DIAL" value="Rotate Left"/>
+			<label name="P1_DIAL_EXT" value="Rotate Right"/>
+		</labels>
+	</player>
+</game>

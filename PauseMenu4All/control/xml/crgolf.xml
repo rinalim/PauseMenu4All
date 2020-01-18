@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="crgolf" gamename="Crowns Golf (834-5419-04)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+This game used a slew of small, red, chicklet, looking buttons. Along with a strang lever for the swing. Oddly enough the lever only adjusted the angle, and a button has to be pressed to actually hit the ball.  
+	</miscDetails>
+	<player number="1" numButtons="6">
+		<controls>
+			<control name="Baseball Pitcher">
+				<constant name="stick"/>
+			</control>
+			<control name="Directional Buttons(2-way left/right)">
+				<constant name="joy2way"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+			<control name="Misc Buttons">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+				<button name="P1_BUTTON3"/>
+				<button name="P1_BUTTON4"/>
+				<button name="P1_BUTTON5"/>
+				<button name="P1_BUTTON6"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Swing"/>
+			<label name="P1_BUTTON2" value="Address Up"/>
+			<label name="P1_BUTTON3" value="Address Down"/>
+			<label name="P1_BUTTON4" value="Address Left"/>
+			<label name="P1_BUTTON5" value="Address Right"/>
+			<label name="P1_BUTTON6" value="Club Select"/>
+			<label name="P1_AD_STICK_X" value=""/>
+			<label name="P1_AD_STICK_X_EXT" value=""/>
+			<label name="P1_AD_STICK_Y" value="Decrease Swing Angle"/>
+			<label name="P1_AD_STICK_Y_EXT" value="Increase Swing Angle"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

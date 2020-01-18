@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="gunsmoke" gamename="Gun.Smoke (World)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+Six shot directions are possible by pressing the buttons in combination - Besides the obvious primary directions, pressing Fire Right and Fire Straight would aim between Straight and Right, same for Straight and Left, and pressing Left and Right together would shoot in both directions.
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire - Left"/>
+			<label name="P1_BUTTON2" value="Fire - Center"/>
+			<label name="P1_BUTTON3" value="Fire - Right"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

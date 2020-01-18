@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="triviag1" gamename="Trivial Pursuit (Genus I) (set 1)" numPlayers="4" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+When a question is asked, a possible answer is displayed.  You either press correct to select the given answer, or press incorrect until the correct answer is displayed and then press correct to confirm.  Mame has a bunch of extra inputs defined, but all you should be concerned with are the 'red' (incorrect) and 'green' (correct) buttons. 
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Trivia Buttons">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Correct"/>
+			<label name="P1_BUTTON2" value="Incorrect"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="cclimbr2" gamename="Crazy Climber 2 (Japan)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="1">
+	<miscDetails>
+	</miscDetails>
+	<player number="1" numButtons="0">
+		<controls>
+			<control name="Dual 8-way Joysticks">
+				<constant name="doublejoy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_JOYSTICKLEFT_UP" value="Left Up"/>
+			<label name="P1_JOYSTICKLEFT_DOWN" value="Left Down"/>
+			<label name="P1_JOYSTICKLEFT_LEFT" value="Left Left"/>
+			<label name="P1_JOYSTICKLEFT_RIGHT" value="Left Right"/>
+			<label name="P1_JOYSTICKRIGHT_UP" value="Right Up"/>
+			<label name="P1_JOYSTICKRIGHT_DOWN" value="Right Down"/>
+			<label name="P1_JOYSTICKRIGHT_LEFT" value="Right Left"/>
+			<label name="P1_JOYSTICKRIGHT_RIGHT" value="Right Right"/>
+		</labels>
+	</player>
+</game>

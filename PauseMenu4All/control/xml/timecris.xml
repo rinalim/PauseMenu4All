@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="timecris" gamename="Time Crisis (Rev. TS2 Ver.B)" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The player uses the pedal to rise up from behind cover.  teh cryptic label is posted on the control panel, with a giant arrow pointing down.  This is probably to make the player aware that there is a pedal on a gun game, which is obviously quite odd.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Lightgun">
+				<constant name="lightgun"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+			<control name="Pedal (Microswitch)">
+				<constant name="button"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="Step on It!"/>
+			<label name="P1_LIGHTGUN_X" value="Aim Left"/>
+			<label name="P1_LIGHTGUN_X_EXT" value="Aim Right"/>
+			<label name="P1_LIGHTGUN_Y" value="Aim Up"/>
+			<label name="P1_LIGHTGUN_Y_EXT" value="Aim Down"/>
+		</labels>
+	</player>
+</game>

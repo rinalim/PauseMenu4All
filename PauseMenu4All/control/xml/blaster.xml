@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="blaster" gamename="Blaster" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+This game uses a 49-way optical triggerstick with thumb button.  The buttons are repeated on the control panel.  The game uses aircraft style controls - Pull back on the stick to climb.
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="49-way Joystick">
+				<constant name="stick"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Blast"/>
+			<label name="P1_BUTTON2" value="Thrust"/>
+			<label name="P1_BUTTON3" value="Unknown"/>
+			<label name="P1_AD_STICK_Y_EXT" value="Down"/>
+			<label name="P1_AD_STICK_Y" value="Up"/>
+			<label name="P1_AD_STICK_X_EXT" value="Right"/>
+			<label name="P1_AD_STICK_X" value="Left"/>
+		</labels>
+	</player>
+</game>

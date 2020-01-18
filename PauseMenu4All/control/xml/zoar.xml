@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="zoar" gamename="Zoar" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+This is probably the only 2d shooter ever to utilize the z axis.  Instead of being able to speedup or slowdown with the up and down directions, these directions allow you to make the craft raise or lower to the ground.  The top speed key doesn't appear to do anything until you try to move left or right.  When you do you will move much more quickly.
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="4-way Joystick">
+				<constant name="joy4way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="High Missile"/>
+			<label name="P1_BUTTON2" value="Low Missile"/>
+			<label name="P1_BUTTON3" value="Top Speed"/>
+			<label name="P1_JOYSTICK_UP" value="Gain Altitude"/>
+			<label name="P1_JOYSTICK_DOWN" value="Lose Altitude"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

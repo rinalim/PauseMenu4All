@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="indytemp" gamename="Indiana Jones and the Temple of Doom (set 1)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Like some other Atari games, such as Road Runner &amp; Peter Packrat, the player start buttons double as the action buttons.  The original game has the Whip button mirrored on both sides of the joystick. The left side Whip button is also 1 player start button; mame emulates this as two buttons, button1 and start1. The right side Whip button is also the 2 players start button; mame emulates this as only the 'start2' button, even though pressing mame's start2 button also whips the whip.  Also, the buttons are used to select the number of lives the player has: the right selects the normal 3 lives (1 credit), the left selects 7 lives (for 2 credits).
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Whip"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

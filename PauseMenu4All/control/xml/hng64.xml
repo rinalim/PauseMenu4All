@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="hng64" gamename="Hyper NeoGeo 64 Bios" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The Hyper Neogeo 64 system was the next generation of the classic neogeo mvs system. This new system wasn't as popular and only had a few games released on it.   They all used the same control layout and relied upon inserts to explain to the consumer what button was what. Also 99% of the games started with a 'How to Play' screen upon starting the game.  Although these games don't work yet in mame, the inputs are already hooked up, just like the original neogeo.  It would be silly to think that these would be altered after the driver is in working order.
+	</miscDetails>
+	<player number="1" numButtons="4">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="A"/>
+			<label name="P1_BUTTON2" value="B"/>
+			<label name="P1_BUTTON3" value="C"/>
+			<label name="P1_BUTTON4" value="D"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

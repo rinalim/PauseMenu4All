@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="hotsmash" gamename="Vs. Hot Smash" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The Nintendo Vs. System was released along side the original NES game console. The games it plays are virtually identical.  This is the earliest known mvs cabinet.   This game is unique to the system in that it uses a spinner.  As it's one of the last games released for the system, it can be assumed that this is the only vs game to do so.
+	</miscDetails>
+	<player number="1" numButtons="0">
+		<controls>
+			<control name="Spinner">
+				<constant name="dial"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_DIAL" value="Left"/>
+			<label name="P1_DIAL_EXT" value="Right"/>
+		</labels>
+	</player>
+</game>

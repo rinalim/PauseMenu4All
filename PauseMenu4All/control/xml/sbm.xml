@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="sbm" gamename="Sonic Blast Man (Japan)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+This game is unplayable on anyone's layout.  It used a series of photo sensors and a punching pad, along with boxing gloves to make a 'punching sim'.  Mame maps the impact position on the pad to the directional arrows and the speed is calculated by the photo sensors.  Player 2 joystick may also do something.  It doesn't really matter as the game is unplayable.  Interesting side note....  The original machine was responsible for several lawsuits as the pad wasn't padded enough and people injured themselves hitting it.
+	</miscDetails>
+	<player number="1" numButtons="4">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+			<control name="Misc Buttons">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+				<button name="P1_BUTTON3"/>
+				<button name="P1_BUTTON4"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Sensor 1"/>
+			<label name="P1_BUTTON2" value="Sensor 2"/>
+			<label name="P1_BUTTON3" value="Sensor 3"/>
+			<label name="P1_BUTTON4" value="Sensor 4"/>
+			<label name="P1_JOYSTICK_UP" value="Aim Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Aim Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Aim Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Aim Right"/>
+		</labels>
+	</player>
+</game>

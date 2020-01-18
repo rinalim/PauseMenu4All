@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="speedrcr" gamename="Speed Racer" numPlayers="1" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The game has three volcano buttons mounted on the control panel, these buttons are used to fire the three weapons on your car.  They are unlabeled but are referred to as A, B, and C in the game's test menu.  The start button doubles as a jump button.  In mame an extra button and an extra pedal are defined but this doesn't reflect the original hardware.  
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="270 Steering Wheel">
+				<constant name="paddle"/>
+			</control>
+			<control name="Misc Buttons">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+				<button name="P1_BUTTON3"/>
+			</control>
+			<control name="Pedal (Analog)">
+				<constant name="pedal"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="A"/>
+			<label name="P1_BUTTON2" value="B"/>
+			<label name="P1_BUTTON3" value="C"/>
+			<label name="P1_PADDLE" value="Left"/>
+			<label name="P1_PADDLE_EXT" value="Right"/>
+			<label name="P1_PEDAL" value="Accelerate"/>
+		</labels>
+	</player>
+</game>

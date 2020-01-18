@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="golgo13" gamename="Golgo 13 (Japan, GLG1/VER.A)" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The select and enter buttons may very well be useless in the game itself.  Everything is in Japanese it's generally hard to tell with what little is know with this game.   On the original game there was a scope you looked through that contained a small lcd with a closer view.  In mame a 'zoom button' was hacked in.  There is no telling if that was an original option or not.
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="2-way Joystick (Vertical)">
+				<constant name="vjoy2way"/>
+			</control>
+			<control name="Analog Gun">
+				<constant name="lightgun"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Trigger"/>
+			<label name="P1_BUTTON2" value="Zoom In / Zoom Out"/>
+			<label name="P1_BUTTON3" value="Enter"/>
+			<label name="P1_JOYSTICK_UP" value="Select Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Select Down"/>
+			<label name="P1_LIGHTGUN_X" value="Aim Left"/>
+			<label name="P1_LIGHTGUN_X_EXT" value="Aim Right"/>
+			<label name="P1_LIGHTGUN_Y" value="Aim Up"/>
+			<label name="P1_LIGHTGUN_Y_EXT" value="Aim Down"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="kchamp" gamename="Karate Champ (US)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+This game is the very first \'street fighter\' style game.  The controls on it are a tad odd.  Instead of a joystick and an array of buttons, you have two joysticks.  These joysticks don\'t have any labels and merely have arrow directions printed on the overlay.  The left joystick controls movement while the right determines the type of attack.  Different attack directions while in different positions perform different moves.  Luckily, the game tutors you on moves during the first round.    It should be noted that this game comes in one and two player versions.  
+	</miscDetails>
+	<player number="1" numButtons="0">
+		<controls>
+			<control name="Dual 4-way Joysticks">
+				<constant name="doublejoy4way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_JOYSTICKLEFT_UP" value="Up"/>
+			<label name="P1_JOYSTICKLEFT_DOWN" value="Down"/>
+			<label name="P1_JOYSTICKLEFT_LEFT" value="Left"/>
+			<label name="P1_JOYSTICKLEFT_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICKRIGHT_UP" value="Attack Up"/>
+			<label name="P1_JOYSTICKRIGHT_DOWN" value="Attack Down"/>
+			<label name="P1_JOYSTICKRIGHT_LEFT" value="Attack Left"/>
+			<label name="P1_JOYSTICKRIGHT_RIGHT" value="Attack Right"/>
+		</labels>
+	</player>
+</game>

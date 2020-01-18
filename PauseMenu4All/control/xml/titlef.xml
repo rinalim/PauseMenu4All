@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="titlef" gamename="Title Fight (World)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The game actually used a pair of digital 'twist sticks'  basically, you moved them up and down as normal, but to press left or right you twist them.  Explaining how to play is rather complicated as the game uses combinations of both stick movements to do moves.  
+	</miscDetails>
+	<player number="1" numButtons="0">
+		<controls>
+			<control name="Dual 8-way Joysticks">
+				<constant name="doublejoy8way"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_JOYSTICKLEFT_UP" value="Left Fist Up"/>
+			<label name="P1_JOYSTICKLEFT_DOWN" value="Left Fist Down"/>
+			<label name="P1_JOYSTICKLEFT_LEFT" value="Left Fist Left"/>
+			<label name="P1_JOYSTICKLEFT_RIGHT" value="Left Fist Right"/>
+			<label name="P1_JOYSTICKRIGHT_UP" value="Right Fist Up"/>
+			<label name="P1_JOYSTICKRIGHT_DOWN" value="Right Fist Down"/>
+			<label name="P1_JOYSTICKRIGHT_LEFT" value="Right Fist Left"/>
+			<label name="P1_JOYSTICKRIGHT_RIGHT" value="Right Fist Right"/>
+		</labels>
+	</player>
+</game>

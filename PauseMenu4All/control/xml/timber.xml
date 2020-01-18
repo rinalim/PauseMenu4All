@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="timber" gamename="Timber" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="1">
+	<miscDetails>
+OTHER:  The two buttons in mame are actually a two-way joystick.  The 4-way joystick is for moving and pushing, the buttons (2-way) chops the wood.  
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="4-way Joystick">
+				<constant name="joy4way"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Chop Left"/>
+			<label name="P1_BUTTON2" value="Chop Right"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+		</labels>
+	</player>
+</game>

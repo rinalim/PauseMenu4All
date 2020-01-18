@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="victory" gamename="Victory" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The game used a tempest style spinner, three round lighted buttons for normal functions, and a large, rectangular, trivia-style button for the doomsday weapon activation.
+	</miscDetails>
+	<player number="1" numButtons="4">
+		<controls>
+			<control name="Misc Buttons">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+				<button name="P1_BUTTON3"/>
+			</control>
+			<control name="Spinner">
+				<constant name="dial"/>
+			</control>
+			<control name="Trivia Buttons">
+				<constant name="button"/>
+				<button name="P1_BUTTON4"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="Thrust"/>
+			<label name="P1_BUTTON3" value="Shields"/>
+			<label name="P1_BUTTON4" value="Doomsday"/>
+			<label name="P1_DIAL" value="Rotate Left"/>
+			<label name="P1_DIAL_EXT" value="Rotate Right"/>
+		</labels>
+	</player>
+</game>

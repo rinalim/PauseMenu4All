@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="assault" gamename="Assault" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Mame-wise, this game is really odd.  The original game uses dual 4-way trigger sticks.  However the author of the mame driver also hacked in an optional 1 stick control scheme so you can play the game with a regular single stick.  Unfortunately, this hack interferes with the real inputs so you have to clear one or the other to play properly.  It should also be noted that you can not rapid roll with the hack as the game requires you to press both sticks left or right at once to do a roll.  Also there is a phantom button defined that is useless.    Gameplay Tips:  To rapid roll push both sticks in the same direction.  (Left or right only)  To launch a grenade push both sticks to the outside and fire when ready.  
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Dual 4-way Triggersticks">
+				<constant name="doublejoy4way"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_JOYSTICKRIGHT_RIGHT" value="Rapid Roll Right"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="runaway" gamename="Runaway (prototype)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+The hi / low shifter was actually a plastic switch, but it operates just like a high / low shifter in mame so it's mapped it to that.  The jump button was unlabeled on the original cpo.
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="High-Low Shifter">
+				<constant name="button"/>
+				<button name="P1_BUTTON3"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Switcher"/>
+			<label name="P1_BUTTON2" value="Jump"/>
+			<label name="P1_BUTTON3" value="Forward / Reverse"/>
+		</labels>
+	</player>
+</game>

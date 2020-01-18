@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="rranger" gamename="Rough Ranger (v2.0, unprotected, bootleg?)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+The original cpo used icons, but they are very cryptic.  'Shoot' sported a rather understandable gun icon, but 'Jump' had an icon of overlapping up and down arrows.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Jump"/>
+			<label name="P1_BUTTON2" value="Shoot"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

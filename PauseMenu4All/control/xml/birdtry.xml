@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="birdtry" gamename="Birdie Try (Japan)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+In game controls lists dial input for both players.  I think this is taken from hbarrel which is from the same driver (dec0.c). Shouldn?t be in there. Gameplay - press the options button to change club, swing type and ball spin.  Press the swing button to start swing.  When red bar on right side of screen reaches desired power press swing again. 
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Swing"/>
+			<label name="P1_BUTTON2" value="Options"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+		</labels>
+	</player>
+</game>

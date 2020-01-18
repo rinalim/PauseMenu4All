@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="psychos" gamename="Psycho Soldier (US)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+The player starts as a flying-saucer which the player can fly anywhere in the screen. After a few seconds, the flying-saucer drops the main character that runs/jumps/drops between the platforms. After a life is lost, the player returns to the saucer.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Primary Fire"/>
+			<label name="P1_BUTTON2" value="Secondary Fire "/>
+			<label name="P1_JOYSTICK_RIGHT" value="Move Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Move Left"/>
+			<label name="P1_JOYSTICK_DOWN" value="Move Down"/>
+			<label name="P1_JOYSTICK_UP" value="Move Up"/>
+		</labels>
+	</player>
+</game>

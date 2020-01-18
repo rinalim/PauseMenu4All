@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="radarscp" gamename="Radar Scope" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+Note by HowardC:  As of mame version .77 this game should us a 2-way stick.  If it doesn't contact me.  
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="2-way Joystick (Horizontal)">
+				<constant name="joy2way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+		</labels>
+	</player>
+</game>

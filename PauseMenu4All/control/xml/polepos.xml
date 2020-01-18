@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="polepos" gamename="Pole Position" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Button 1 is actually the spacebar by default to avoid conflicts with the pedals.  The high/low shifter is emulated by a single toggle input in mame. 
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="High-Low Shifter">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+			<control name="360 Steering Wheel">
+				<constant name="dial"/>
+			</control>
+			<control name="Pedal (Analog)">
+				<constant name="pedal"/>
+			</control>
+			<control name="Pedal2 (Analog)">
+				<constant name="pedal2"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="High / Low"/>
+			<label name="P1_DIAL_EXT" value="Right"/>
+			<label name="P1_DIAL" value="Left"/>
+			<label name="P1_PEDAL" value="Accelerate"/>
+			<label name="P1_PEDAL2" value="Brake"/>
+		</labels>
+	</player>
+</game>

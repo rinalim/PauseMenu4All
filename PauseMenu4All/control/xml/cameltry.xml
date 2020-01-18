@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="cameltry" gamename="Cameltry (US, YM2610)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="1">
+	<miscDetails>
+This game seems to use a tetris cpo.  The button isn't actually labeled, and the labels it were given are explained during gameplay.  Pressing the button jumps while holding it down speeds up your decent.  
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Spinner">
+				<constant name="dial"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Jump / Speedup"/>
+			<label name="P1_DIAL" value="Rotate Left"/>
+			<label name="P1_DIAL_EXT" value="Rotate Right"/>
+		</labels>
+	</player>
+</game>

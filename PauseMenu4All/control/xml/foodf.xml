@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="foodf" gamename="Food Fight (rev 3)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Uses a Gimbal stick.
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Analog Stick">
+				<constant name="stick"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Throw"/>
+			<label name="P1_AD_STICK_Y" value="Up"/>
+			<label name="P1_AD_STICK_X_EXT" value="Right"/>
+			<label name="P1_AD_STICK_X" value="Left"/>
+			<label name="P1_AD_STICK_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

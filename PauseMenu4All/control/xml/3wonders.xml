@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="3wonders" gamename="Three Wonders (World 910520)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+3rd button mapped in mame but not used (AFAIK).    This game has 3 games in 1 and the 2 buttons act differently in each game.  There doesn't seem to be anything written on the control panel but for game 1 - Attack, Jump 2 - Attack, Special Attack 3 - Push Block, Push Block
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Attack"/>
+			<label name="P1_BUTTON2" value="Jump"/>
+			<label name="P1_BUTTON3" value="??"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

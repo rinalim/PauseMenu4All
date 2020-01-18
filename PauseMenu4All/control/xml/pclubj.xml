@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="pclubj" gamename="Print Club (Japan Vol.1)" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Even though the label indicates that this is a 4 way joystick it is really a two way.  The joystick is desginated as a 4 way because the cpo actually had arrows in all 4 directions.    This isn't even a game, it is a photo booth in which users select a overlay and have theri pciture printed with it in front. Considering mame's 'arcade machine only' policy, it is suprising that it is included in mame. 
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="4-way Joystick">
+				<constant name="joy4way"/>
+			</control>
+			<control name="Trivia Buttons">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Ok / Print"/>
+			<label name="P1_BUTTON2" value="Cancel"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

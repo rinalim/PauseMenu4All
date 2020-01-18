@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="sheriff" gamename="Sheriff" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+NOTE  The input emulation is correct in mame, but this games real life controls are NOT dual 8-ways.  The game used a 8 way joystick and a special rotary dial with a trigger, which used absolute positon.  Basically it acted like an 8way joystick that stays in the direction you point it.
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Dual 8-way Joysticks">
+				<constant name="doublejoy8way"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_JOYSTICKLEFT_UP" value="Up"/>
+			<label name="P1_JOYSTICKLEFT_DOWN" value="Down"/>
+			<label name="P1_JOYSTICKLEFT_LEFT" value="Left"/>
+			<label name="P1_JOYSTICKLEFT_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICKRIGHT_UP" value="Aim Up"/>
+			<label name="P1_JOYSTICKRIGHT_DOWN" value="Aim Down"/>
+			<label name="P1_JOYSTICKRIGHT_LEFT" value="Aim Left"/>
+			<label name="P1_JOYSTICKRIGHT_RIGHT" value="Aim Right"/>
+		</labels>
+	</player>
+</game>

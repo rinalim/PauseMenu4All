@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="galaga88" gamename="Galaga '88" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+This game was marketed as a conversion for Dragon Spirit, so it used an 8-way joystick, but the vertical inputs were ignored.  The game has one actual action button 'Fire' located on the left and right side of the joystick.  However the PCB does have three button inputs.
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="Fire"/>
+			<label name="P1_BUTTON3" value="N/A"/>
+			<label name="P1_JOYSTICK_UP" value="N/A"/>
+			<label name="P1_JOYSTICK_DOWN" value="N/A"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

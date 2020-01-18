@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="invadpt2" gamename="Space Invaders Part II (Taito)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+The Taito version of this game (invadpt2) used a directional joystick.  The Midway version (invaddlx) replaced the joystick with directional buttons.  The buttons were labelled 'Laser Base Control' with arrows.
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Directional Buttons(2-way left/right)">
+				<constant name="joy2way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire Laser"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="reactor" gamename="Reactor" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+The action buttons are 'mirrored' on both sides of the trackball like normal, and double as start buttons.  However, the start half of the buttons are not mirrored: the start buttons go 1 2 1 2 from left to right, and the left side start buttons give you 3 ships for one credit, while the right side buttons give you 7 ships for two credits.  So the layout, from left to right, is (energy / 1 player with 3 ships), (decoy / 2 players with 3 ships each), trackball, (decoy / 1 player with 7 ships), (energy / 2 players with 7 ships each).  Mame's emulated buttons go start1, start2, trackball, p1 button2, p1 button1, following the above layout.  So the start buttons are also action buttons, and the action buttons are start buttons, but they are 4 different buttons, even though there are two different actions.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Trackball">
+				<constant name="trackball"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Energy"/>
+			<label name="P1_BUTTON2" value="Decoy"/>
+			<label name="P1_TRACKBALL_X" value="Left"/>
+			<label name="P1_TRACKBALL_X_EXT" value="Right"/>
+			<label name="P1_TRACKBALL_Y" value="Up"/>
+			<label name="P1_TRACKBALL_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

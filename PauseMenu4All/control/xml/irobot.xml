@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="irobot" gamename="I, Robot" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+This had a funny looking CP.  The joystick sat on a small panel, sticking out toward the player at about 45 degrees toward the player.  The two fire buttons were mirrored, one on each side of the small panel, one panels of there own, angled sideways at about 30 degrees from vertical.  The two start buttons were the Atari cones on their own panel above the small panel of the joystick.  Mame has two seperate buttons emulated, but the second does not do anything.  The test screen only lists one fire button, so it looks like the two physical fire buttons were wired together in the original game, connected to the PCBs as one.  The original joystick was a Hall Effect joystick: an analog joystick that used magnetics to vary the resistance instead of the usual POT.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Analog Stick">
+				<constant name="stick"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="??-not used-??"/>
+			<label name="P1_AD_STICK_X" value="Left"/>
+			<label name="P1_AD_STICK_X_EXT" value="Right"/>
+			<label name="P1_AD_STICK_Y" value="Up"/>
+			<label name="P1_AD_STICK_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

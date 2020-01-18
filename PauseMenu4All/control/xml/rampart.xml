@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="rampart" gamename="Rampart (Trackball)" numPlayers="3" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The player's Place Piece/Fire button is also the start button.    There are three basic different CP layouts for this game: 3 player trackball, 2 player trackball (dipswitch with same ROM as 3 player TB), and 2 player 8-way joystick (with ramprt2p and rampartj).  The 3 player dedicated TB CP had two buttons per player on the left side of the TB.  The kit highly recomends mirroring the buttons on both sides the joystick, with two buttons wired to each button input, but this was not always followed.    Button2 (Rotate Peice/Fire) is labeled as the 3 player TB CP; for the joystick CP, this button was 'Rotate Piece/Speed Up' instead to give the joystick two movement speeds in the shooting part of the game.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Trackball">
+				<constant name="trackball"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Place Piece/Fire/Start"/>
+			<label name="P1_BUTTON2" value="Rotate Piece/Fire"/>
+			<label name="P1_TRACKBALL_X" value="Left"/>
+			<label name="P1_TRACKBALL_X_EXT" value="Right"/>
+			<label name="P1_TRACKBALL_Y" value="Up"/>
+			<label name="P1_TRACKBALL_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

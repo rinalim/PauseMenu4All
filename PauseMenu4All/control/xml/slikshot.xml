@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="slikshot" gamename="Slick Shot (V2.2)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The 'trackball' is actually an entire section of a pool table, with a cue ball, cue stick, and various sensors to track their movement.  The buttons are lighted when they are required and you are prompted on screen as to which to press.
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+			<control name="Misc Buttons">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+				<button name="P1_BUTTON3"/>
+			</control>
+			<control name="Trackball">
+				<constant name="trackball"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Yellow"/>
+			<label name="P1_BUTTON2" value="Green"/>
+			<label name="P1_BUTTON3" value="Red"/>
+			<label name="P1_TRACKBALL_X" value="Left"/>
+			<label name="P1_TRACKBALL_X_EXT" value="Right"/>
+			<label name="P1_TRACKBALL_Y" value="Up"/>
+			<label name="P1_TRACKBALL_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="angelkds" gamename="Angel Kids (Japan)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+Left joy controls the left kid, right controls the right kid
+	</miscDetails>
+	<player number="1" numButtons="0">
+		<controls>
+			<control name="Dual 8-way Joysticks">
+				<constant name="doublejoy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_JOYSTICKLEFT_UP" value="Up"/>
+			<label name="P1_JOYSTICKLEFT_DOWN" value="Down"/>
+			<label name="P1_JOYSTICKLEFT_LEFT" value="Left"/>
+			<label name="P1_JOYSTICKLEFT_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICKRIGHT_UP" value="Up"/>
+			<label name="P1_JOYSTICKRIGHT_DOWN" value="Down"/>
+			<label name="P1_JOYSTICKRIGHT_LEFT" value="Left"/>
+			<label name="P1_JOYSTICKRIGHT_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

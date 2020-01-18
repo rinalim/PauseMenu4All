@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="cheyenne" gamename="Cheyenne (version 1.0)" numPlayers="1" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Game used a rifle style lightgun on a pedestal mount.
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Lightgun">
+				<constant name="lightgun"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_LIGHTGUN_Y_EXT" value="Down"/>
+			<label name="P1_LIGHTGUN_X_EXT" value="Right"/>
+			<label name="P1_LIGHTGUN_Y" value="Up"/>
+			<label name="P1_LIGHTGUN_X" value="Left"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="offroadt" gamename="Ironman Ivan Stewart's Super Off-Road Track-Pak" numPlayers="3" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+There are no Start buttons; the Nitro buttons double as the Start buttons.  You also use the the Nitro buttons to select improvements on your car.  There are two Nitro buttons for each player, mirrored on each side of the steering wheel, but they are wired together as one button in the harness.  'Player 1' is the Red car or 'Red Player', 'Player 2' is the Yellow car or 'Yellow Player', and 'Player 3' is the Blue car or 'Blue Player'.  The game and manual refer to the players with their color, not a number.  Might be because of next point.  There are also two player cabs of this game, but all they did was remove the Yellow car's inputs, including the coin inputs.  There are no dipswitches to change.  So on these cabs, the 'second player' is the blue car, but all the inputs are connected to what is still 'Player 3' in mame.  This was usually done not because of blue being a more popular color, but the arcade operators need the blue nitro button to change game settings.  To eneter service mode, hold down Blue Nitro button and press service button.  The menus are scrolled down by pressing the Red Nitro button, and selected by pressing the Blue Nitro button.  This is basically the same as the original Ironman Ivan Stewart's Super Off Road.  However, it has new tracks, and the players can choose between driving a dune buggy or the original truck.  The control is exactly the same.
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="360 Steering Wheel">
+				<constant name="dial"/>
+			</control>
+			<control name="Pedal (Analog)">
+				<constant name="pedal"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Nitro / Start"/>
+			<label name="P1_DIAL" value="Left"/>
+			<label name="P1_DIAL_EXT" value="Right"/>
+			<label name="P1_PEDAL" value="On"/>
+		</labels>
+	</player>
+</game>

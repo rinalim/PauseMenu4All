@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="dotron" gamename="Discs of Tron (Upright)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+	</miscDetails>
+	<player number="1" numButtons="4">
+		<controls>
+			<control name="8-way Triggerstick">
+				<constant name="joy8way"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+			<control name="Push/Pull Spinner">
+				<constant name="dial"/>
+				<button name="P1_BUTTON3"/>
+				<button name="P1_BUTTON4"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Throw"/>
+			<label name="P1_BUTTON2" value="Deflect"/>
+			<label name="P1_BUTTON3" value="Aim Up"/>
+			<label name="P1_BUTTON4" value="Aim Down"/>
+			<label name="P1_JOYSTICK_UP" value="Move Tron"/>
+			<label name="P1_JOYSTICK_DOWN" value="Move Tron"/>
+			<label name="P1_JOYSTICK_LEFT" value="Move Tron"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Move Tron"/>
+			<label name="P1_DIAL" value="Aim"/>
+			<label name="P1_DIAL_EXT" value="Aim"/>
+		</labels>
+	</player>
+</game>

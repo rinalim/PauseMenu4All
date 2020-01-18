@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="sarge" gamename="Sarge" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+The buttons are mirrored across both sticks.  They are labeled generically because you can control various vehicles in the game and they have different functions for each.  This game driver has hacked in inputs that allow you to play the game with a regular joystick.  To disable these hacked inputs you need to either disable cheats or remap the hacked inputs to 'none' in the input menu.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Dual 2-way Triggersticks (Vertical)">
+				<constant name="vdoublejoy2way"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Trigger Switch"/>
+			<label name="P1_BUTTON2" value="Thumb Button"/>
+			<label name="P1_JOYSTICKLEFT_UP" value="Left Tread Forward"/>
+			<label name="P1_JOYSTICKLEFT_DOWN" value="Left Tread Backward"/>
+			<label name="P1_JOYSTICKRIGHT_UP" value="Right Tread Forward"/>
+			<label name="P1_JOYSTICKRIGHT_DOWN" value="Right Tread Backward"/>
+		</labels>
+	</player>
+</game>

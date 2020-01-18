@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="avsp" gamename="Alien vs. Predator (Euro 940520)" numPlayers="3" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The default dipswitch is two player mode; you need to F2 into the game's service mode and change it to three player mode to play with 3 players.  Each character has special moves.
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Shoot"/>
+			<label name="P1_BUTTON2" value="Attack"/>
+			<label name="P1_BUTTON3" value="Jump (Dash)"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Move Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Move Right"/>
+		</labels>
+	</player>
+</game>

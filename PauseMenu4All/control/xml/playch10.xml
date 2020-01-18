@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="playch10" gamename="PlayChoice-10 BIOS" numPlayers="2" alternating="0" mirrored="0" usesService="1" tilt="0" cocktail="0">
+	<miscDetails>
+The playchoice 10 system is a pay-per-play system based on the original nes console and plays the same titles.  Instead of purchasing lives, you purchase time on the machine.  The machine can hold 10 games at once and you switch using the game menu on the secondary monitor.   
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+			<control name="Lightgun">
+				<constant name="lightgun"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="A"/>
+			<label name="P1_BUTTON2" value="B"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_LIGHTGUN_X_EXT" value="Right"/>
+			<label name="P1_LIGHTGUN_X" value="Left"/>
+			<label name="P1_LIGHTGUN_Y" value="Up"/>
+			<label name="P1_LIGHTGUN_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+	<player number="2" numButtons="2">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P2_BUTTON1" value="A"/>
+			<label name="P2_BUTTON2" value="B"/>
+			<label name="P2_JOYSTICK_UP" value="Up"/>
+			<label name="P2_JOYSTICK_DOWN" value="Down"/>
+			<label name="P2_JOYSTICK_LEFT" value="Left"/>
+			<label name="P2_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="maxrpm" gamename="Max RPM" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+Please note that mame has fudged the shifter input up.  Also note that since the shifter buttons are mapped to button 1 and 2 they will conflict with the gas pedal with mame's default mappings.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="270 Steering Wheel">
+				<constant name="paddle"/>
+			</control>
+			<control name="4 Gear Shifter">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+			<control name="Pedal (Analog)">
+				<constant name="pedal"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Shift Up"/>
+			<label name="P1_BUTTON2" value="Shift Down"/>
+			<label name="P1_PADDLE" value="Left"/>
+			<label name="P1_PADDLE_EXT" value="Right"/>
+			<label name="P1_PEDAL" value="Accelerate"/>
+		</labels>
+	</player>
+</game>

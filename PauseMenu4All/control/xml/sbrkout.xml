@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="sbrkout" gamename="Super Breakout (rev 04)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+The original game used a 3-position rotary switch to select between 3 different variations: Progressive, Double, and Cavity.
+	</miscDetails>
+	<player number="1" numButtons="4">
+		<controls>
+			<control name="Paddle (Horizontal)">
+				<constant name="paddle"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Serve"/>
+			<label name="P1_BUTTON2" value="Progressive"/>
+			<label name="P1_BUTTON3" value="Double"/>
+			<label name="P1_BUTTON4" value="Cavity"/>
+			<label name="P1_PADDLE_EXT" value="Right"/>
+			<label name="P1_PADDLE" value="Left"/>
+		</labels>
+	</player>
+</game>

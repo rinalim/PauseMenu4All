@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="xenophob" gamename="Xenophobe" numPlayers="3" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+This trigger stick has two thumb buttons in additon to the normal fire button.  The left and right buttons each do over a dozen things, with what they do depending upon the message displayed on the screen at the time.  They are appropriately labeled 'left button' and 'right button' on the screen.
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="8-way Triggerstick">
+				<constant name="joy8way"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+				<button name="P1_BUTTON3"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire / Punch"/>
+			<label name="P1_BUTTON2" value="Left Button"/>
+			<label name="P1_BUTTON3" value="Right Button"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

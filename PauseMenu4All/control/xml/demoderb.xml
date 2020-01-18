@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="demoderb" gamename="Demolition Derby" numPlayers="4" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+OTHER: This game had a 2-way joystick as the forward/reverse shifter.  Unlike Hi/Low shifters that have only two positions, the Demolition Derby shifter has a Forward, a Reverse, and a Neutral (centered, not labeled) like a 2-way (v) joystick. However, Mame emulates the shifter as buttons 1 &amp; 2, and does not use the 2-way joystick.  The start button is labeled 'Restart' on the CP.  The game comes in 2 player standup and 4 player cocktail, and switches between the two with a dipswitch.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="360 Steering Wheel">
+				<constant name="dial"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Forward"/>
+			<label name="P1_BUTTON2" value="Reverse"/>
+			<label name="P1_DIAL" value="Left"/>
+			<label name="P1_DIAL_EXT" value="Right"/>
+		</labels>
+	</player>
+</game>

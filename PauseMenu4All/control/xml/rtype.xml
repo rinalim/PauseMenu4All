@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="rtype" gamename="R-Type (World)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+The longer you hold down the fire button, the stronger the shot.  The force button 'shoots' or recalls a power-up piece from and to your ship.   Mame has four buttons for this game for some reason, but only uses the first two.  The game has the fire and force buttons on both sides of the joystick, but not 'mirrored': the force is to the left of the fire button on both sides of the joystick.  NOTE  In Mame this game actually has four buttons.  This is due to some sloppy code and nothing more.  The dipswitches between this game and a similar game running on the same system were identical, so the input function was simply re-routed to that game.  This needs to be removed asap.  
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="Force"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+		</labels>
+	</player>
+</game>

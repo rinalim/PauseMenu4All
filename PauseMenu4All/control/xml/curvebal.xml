@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="curvebal" gamename="Curve Ball" numPlayers="2" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Note that player 1 and player 2 share a set of controls.  During an inning change, player 1 swaps places with player 2 and vice-versa. The batter buttons are globally labeled 'Bat Control and Runners Speed'  and the pitch controls are labeled 'Speed of Pitch and Curve'.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Just Buttons">
+				<constant name="button"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Swing"/>
+			<label name="P1_BUTTON2" value="Bunt"/>
+		</labels>
+	</player>
+	<player number="2" numButtons="2">
+		<controls>
+			<control name="Just Buttons">
+				<constant name="button"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P2_BUTTON1" value="Left (Curve)"/>
+			<label name="P2_BUTTON2" value="Right (Curve)"/>
+		</labels>
+	</player>
+</game>

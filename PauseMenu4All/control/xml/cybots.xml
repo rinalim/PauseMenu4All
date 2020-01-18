@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="cybots" gamename="Cyberbots: Fullmetal Madness (Euro 950424)" numPlayers="2" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+	</miscDetails>
+	<player number="1" numButtons="4">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Attack 1"/>
+			<label name="P1_BUTTON2" value="Attack 2"/>
+			<label name="P1_BUTTON3" value="Boost"/>
+			<label name="P1_BUTTON4" value="Weapons"/>
+			<label name="P1_JOYSTICK_LEFT" value="Back / Defense"/>
+			<label name="P1_JOYSTICK_DOWN" value="Duck"/>
+			<label name="P1_JOYSTICK_UP" value="Jump"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Forward"/>
+		</labels>
+	</player>
+	<player number="2" numButtons="4">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P2_BUTTON1" value="Attack 1"/>
+			<label name="P2_BUTTON2" value="Attack 2"/>
+			<label name="P2_BUTTON3" value="Boost"/>
+			<label name="P2_BUTTON4" value="Weapons"/>
+			<label name="P2_JOYSTICK_RIGHT" value="Back / Defense"/>
+			<label name="P2_JOYSTICK_LEFT" value="Forward"/>
+			<label name="P2_JOYSTICK_DOWN" value="Duck"/>
+			<label name="P2_JOYSTICK_UP" value="Jump"/>
+		</labels>
+	</player>
+</game>

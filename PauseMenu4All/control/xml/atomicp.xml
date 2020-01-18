@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="atomicp" gamename="Atomic Point (Korea)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+If a falling block has one block flashing you can press the second button and you get four choices. One of these it to get to select what the next shape will be.  Mame has this as a 8-way in the system16.c driver but while playing acts like a 4-way 
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="4-way Joystick">
+				<constant name="joy4way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Rotate"/>
+			<label name="P1_BUTTON2" value="Special"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

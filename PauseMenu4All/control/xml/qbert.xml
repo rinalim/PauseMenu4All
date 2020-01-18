@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="qbert" gamename="Q*bert (US set 1)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+Used a 4-way joystick rotated 45 degrees.
+	</miscDetails>
+	<player number="1" numButtons="0">
+		<controls>
+			<control name="Diagonal 4-way Joystick">
+				<constant name="joy4way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_JOYSTICK_LEFT" value="Left+Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down+Left"/>
+			<label name="P1_JOYSTICK_UP" value="Up+Right"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Down+Right"/>
+		</labels>
+	</player>
+</game>

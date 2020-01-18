@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="sprint1" gamename="Sprint 1" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Note that the gear buttons are remapped from the button defaults.  The number labels denote shift position.
+	</miscDetails>
+	<player number="1" numButtons="5">
+		<controls>
+			<control name="360 Steering Wheel">
+				<constant name="dial"/>
+			</control>
+			<control name="4 Gear Shifter">
+				<constant name="button"/>
+				<button name="P1_BUTTON2"/>
+				<button name="P1_BUTTON3"/>
+				<button name="P1_BUTTON4"/>
+				<button name="P1_BUTTON5"/>
+			</control>
+			<control name="Pedal (Microswitch)">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Accelerate"/>
+			<label name="P1_BUTTON2" value="1"/>
+			<label name="P1_BUTTON3" value="2"/>
+			<label name="P1_BUTTON4" value="3"/>
+			<label name="P1_BUTTON5" value="4"/>
+			<label name="P1_DIAL" value="Left"/>
+			<label name="P1_DIAL_EXT" value="Right"/>
+		</labels>
+	</player>
+</game>

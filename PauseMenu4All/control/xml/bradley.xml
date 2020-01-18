@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="bradley" gamename="Bradley Trainer" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+I've made an executive decision on this one.  Since it's a prototype and there aren't any good pics of the control panel, I've decided to list the labels given in mame (which are not correct) and describe how the actual machine worked.  First off we have a yoke designed for this military conversion.  If not for this game, there wouldn't be a star wars yoke. The range of the shot was controlled by an analog dial on the bezel.  Next to that was a digital knob that controlled the magnification.  The game originally had a toggle switch that doesn't seem to be included in mame. My guess is that it was never hooked up to anything (this prototype was a mess and was never finished).  Please note that all buttons save the first hae hard-coded mappings.
+	</miscDetails>
+	<player number="1" numButtons="10">
+		<controls>
+			<control name="Yoke">
+				<constant name="stick"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+			<control name="Throttle (Stick)">
+				<constant name="stickz"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON10" value="Magnification Toggle"/>
+			<label name="P1_BUTTON2" value="Armor Piercing (Single Shot)"/>
+			<label name="P1_BUTTON3" value="High Explosive (Single Shot)"/>
+			<label name="P1_BUTTON4" value="Armor Piercing (Low Rate)"/>
+			<label name="P1_BUTTON5" value="High Explosive (Low Rate)"/>
+			<label name="P1_BUTTON6" value="Armor Piercing (High Rate)"/>
+			<label name="P1_BUTTON7" value="High Explosive (High Rate)"/>
+			<label name="P1_BUTTON8" value="Select Tow Missiles"/>
+			<label name="P1_BUTTON9" value="7.62 mm Machine Gun"/>
+			<label name="P1_AD_STICK_Z_EXT" value="Decrease Range"/>
+			<label name="P1_AD_STICK_Z" value="Increase Range"/>
+			<label name="P1_AD_STICK_X_EXT" value="Aim Right"/>
+			<label name="P1_AD_STICK_X" value="Aim Left"/>
+			<label name="P1_AD_STICK_Y" value="Aim Up"/>
+			<label name="P1_AD_STICK_Y_EXT" value="Aim Down"/>
+		</labels>
+	</player>
+</game>

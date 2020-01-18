@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="f1dream" gamename="F-1 Dream" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+The joystick is used to guide the car around the track.  Holding both Gear buttons down activates Turbo mode.  Note: Directions for turn are not included because which direction the stick makes you turn depends upon which way your car is facing.  It is actually quite confusing to control your car.  
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="1st Gear"/>
+			<label name="P1_BUTTON2" value="2nd Gear"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Turn"/>
+			<label name="P1_JOYSTICK_LEFT" value="Turn"/>
+			<label name="P1_JOYSTICK_DOWN" value="Turn"/>
+			<label name="P1_JOYSTICK_UP" value="Turn"/>
+		</labels>
+	</player>
+</game>

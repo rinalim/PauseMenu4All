@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="trvgns" gamename="Trivia Genius" numPlayers="4" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+The lighted trivia buttons are actually blank, as is the contorl panel overlay.  The game itself has arrows pointing down to the appropriate button.  Also note that buttons a-d also act as the star buttons, again with an arrow pointing towards which is which.  (A = 1 player game, B= 2 players, ect)
+	</miscDetails>
+	<player number="1" numButtons="4">
+		<controls>
+			<control name="Trivia Buttons">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+				<button name="P1_BUTTON3"/>
+				<button name="P1_BUTTON4"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="A"/>
+			<label name="P1_BUTTON2" value="B"/>
+			<label name="P1_BUTTON3" value="C"/>
+			<label name="P1_BUTTON4" value="D"/>
+		</labels>
+	</player>
+</game>

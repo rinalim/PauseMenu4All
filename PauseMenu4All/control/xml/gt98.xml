@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="gt98" gamename="Golden Tee '98 (v1.10)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+1 = Up Left, 2 = Up, 3 = Up Right.  A = Down Left, B = Down, C = Down Right.  On the control panel overlay is instruction on how to swing using those numbers and letters.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Trackball">
+				<constant name="trackball"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Face Left"/>
+			<label name="P1_BUTTON2" value="Face Right"/>
+			<label name="P1_TRACKBALL_X" value="Choose Club"/>
+			<label name="P1_TRACKBALL_X_EXT" value="Choose Club"/>
+			<label name="P1_TRACKBALL_Y" value="Forward Swing"/>
+			<label name="P1_TRACKBALL_Y_EXT" value="Back Swing"/>
+		</labels>
+	</player>
+</game>

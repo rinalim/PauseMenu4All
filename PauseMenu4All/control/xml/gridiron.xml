@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="gridiron" gamename="Gridiron Fight" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The trackball itself is actually labeled 'Pass &amp; Movement Control.'  The original game had a led counter on the control panel that displayed the currently select play number.  In mame this is simulated by a tiny, tiny little orange character on the bottom left of the screen.  This really needs to be replaced by some artwork files to make it a little bigger and easier to understand.
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Trackball">
+				<constant name="trackball"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Pass &amp; Formation Set"/>
+			<label name="P1_TRACKBALL_X" value="Left"/>
+			<label name="P1_TRACKBALL_X_EXT" value="Right"/>
+			<label name="P1_TRACKBALL_Y" value="Up"/>
+			<label name="P1_TRACKBALL_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

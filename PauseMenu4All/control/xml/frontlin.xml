@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="frontlin" gamename="Front Line" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="1">
+	<miscDetails>
+This game, along with Wild Western and Tin Star, used a unique controller.  The Actual game uses a '8 way push to fire' spinner.  The 'spinner' actually used a cam to engage one or two of the 4 microswitches below the control panel.  So if you have a real spinner then don't expect to use it with this game. MAME emulates this like a dual 8-way joystick game.  This set-up works well for the original controls, but poorly for anything else.  Note: Spinners and rotary joysticks can not be used in MAME for this game.  In the tank stages, use grenades to enter the blue tank.  Exit the tank when it is hit.  Use the spinner to rotate and fire the tank turret.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+			<control name="Dual 8-way Joysticks">
+				<constant name="doublejoy8way"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="Tank/Grenade"/>
+			<label name="P1_JOYSTICKLEFT_DOWN" value="Aim Down"/>
+			<label name="P1_JOYSTICKLEFT_UP" value="Aim Up"/>
+			<label name="P1_JOYSTICKLEFT_LEFT" value="Aim Left"/>
+			<label name="P1_JOYSTICKLEFT_RIGHT" value="Aim Right"/>
+			<label name="P1_JOYSTICKRIGHT_UP" value="Up"/>
+			<label name="P1_JOYSTICKRIGHT_DOWN" value="Down"/>
+			<label name="P1_JOYSTICKRIGHT_LEFT" value="Left"/>
+			<label name="P1_JOYSTICKRIGHT_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

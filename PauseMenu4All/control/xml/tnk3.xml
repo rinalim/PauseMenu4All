@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="tnk3" gamename="T.N.K III (US)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+This rotary is a unique one.  It almost looks like a dial at first glance, but the dial can also be shifted in 8 directions, just like a rotary 8-way.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="8-way Rotary Joystick(Optical)">
+				<constant name="joy8way"/>
+				<constant name="dial"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="Cannon"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_DIAL" value="Aim Left"/>
+			<label name="P1_DIAL_EXT" value="Aim Right"/>
+		</labels>
+	</player>
+</game>

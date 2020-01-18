@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="ssf2" gamename="Super Street Fighter II: The New Challengers (World 930911)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The ssf2 cpo image I found was very fuzzy.  If you have a DEDICATED ssf2 cpo image please correct any mistakes I might have made.  The labels to this game are very important as not only is it one of the very last dedicated capcom fighter cabs, but it's labels become the 'universal standard' for future capcom fighters.  
+	</miscDetails>
+	<player number="1" numButtons="6">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Jab Punch"/>
+			<label name="P1_BUTTON2" value="Strong Punch"/>
+			<label name="P1_BUTTON3" value="Fierce Punch"/>
+			<label name="P1_BUTTON4" value="Short Kick"/>
+			<label name="P1_BUTTON5" value="Strong Kick"/>
+			<label name="P1_BUTTON6" value="Roundhouse Kick"/>
+			<label name="P1_JOYSTICK_UP" value="Jump"/>
+			<label name="P1_JOYSTICK_DOWN" value="Crouch"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

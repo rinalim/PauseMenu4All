@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="videopin" gamename="Video Pinball" numPlayers="4" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+This game had a control panel that repliactes real pinball controls.  It even had a section you could nudge in the front and a plunger.  The plunger appears to be digital, but since it really adds to the feel of the game, I tacked on the 'other' flag.  The hardcoded defaults for the flippers are left ctrl and right ctrl. It is suggested that you place a videopin.ini in your personal ctrlr folder and remap them to match visual pinball defaults.  
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="2-way Joystick (Vertical)">
+				<constant name="vjoy2way"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Left Flipper"/>
+			<label name="P1_BUTTON2" value="Right Flipper"/>
+			<label name="P1_BUTTON3" value="Nudge"/>
+			<label name="P1_JOYSTICK_UP" value=""/>
+			<label name="P1_JOYSTICK_DOWN" value="Pull plunger"/>
+		</labels>
+	</player>
+</game>

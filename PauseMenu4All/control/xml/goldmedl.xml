@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="goldmedl" gamename="Gold Medalist" numPlayers="4" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+The buttons on this game aren't labeled, which is a shame as it's quite difficult to figure out what they do.  With over 20 events and each event using the buttons for a different thing, it may be impossible to play this game without an instruction card. During the attract mode, however, it shows which buttons you are supposed to press when going through an event. 
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="Misc Buttons">
+				<constant name="button"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Button A"/>
+			<label name="P1_BUTTON2" value="Button B"/>
+			<label name="P1_BUTTON3" value="Button C"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="popper" gamename="Popper" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+For you Q-Bert fans that don't have a diagonal joystick mounted this is the game for you.  It is essentailly the same game only an 8-way joystick is used.
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Throw"/>
+			<label name="P1_JOYSTICK_UP" value="Move Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Move Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Move Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Move Right"/>
+		</labels>
+	</player>
+</game>

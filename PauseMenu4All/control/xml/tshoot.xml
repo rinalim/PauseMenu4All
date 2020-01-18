@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="tshoot" gamename="Turkey Shoot" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+The Grenade Button is actually mounted on top of the machine gun.  Technically it counts as a part of the gun, but the button itself is a stock lighted button.   This game had an interesting gimmick where feathers were blown in front of the screen between two layers of plexi if a round was successful.  Somone should take advantage of mame's switchable artwork system and re-create this effect via a series of feather animations.  
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="Analog Gun">
+				<constant name="lightgun"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="Grenade"/>
+			<label name="P1_BUTTON3" value="Gobble!"/>
+			<label name="P1_LIGHTGUN_X" value="Aim Left"/>
+			<label name="P1_LIGHTGUN_X_EXT" value="Aim Right"/>
+			<label name="P1_LIGHTGUN_Y" value="Aim Up"/>
+			<label name="P1_LIGHTGUN_Y_EXT" value="Aim Down"/>
+		</labels>
+	</player>
+</game>

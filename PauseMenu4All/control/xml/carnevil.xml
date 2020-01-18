@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="carnevil" gamename="CarnEvil (v1.0.3)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+The lightgun is shaped like a small, piston grip, pump action shotgun.  You can also reload by shooting off screen.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Lightgun">
+				<constant name="lightgun"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Trigger"/>
+			<label name="P1_BUTTON2" value="Reload"/>
+			<label name="P1_LIGHTGUN_X" value="Left"/>
+			<label name="P1_LIGHTGUN_X_EXT" value="Right"/>
+			<label name="P1_LIGHTGUN_Y" value="Up"/>
+			<label name="P1_LIGHTGUN_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

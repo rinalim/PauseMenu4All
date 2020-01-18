@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="gwar" gamename="Guerrilla War (US)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+Grenade button also gets you into and out of the tank.  Used the SNK LS-30, 12 direction rotary, but only faces 8 directions in the game.  Usually the buttons were mirrored on both sides of the joystick for a total of four physical buttons per player, but both fire buttons and both grenade buttons are wired to the same PCB input.  The recommended button colors are yellow for the fire button, and black for the grenade button.  To enter test mode hold down the service key (F2) during boot or reboot until grid screen; press service button to go to next test screen; reboot to exit.   Mame's driver has an extra 13th 'direction' between 5 &amp; 6 because it 'avoids the 'joystick error' protection in Guerilla War which happens when direction changes directly from 0x50&amp;lt;-&amp;gt;0x60 8 times.'
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="8-way Rotary Joystick(Mechanical)">
+				<constant name="joy8way"/>
+				<constant name="dial"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="Grenade"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_DIAL" value="Rotate Left"/>
+			<label name="P1_DIAL_EXT" value="Rotate Right"/>
+		</labels>
+	</player>
+</game>

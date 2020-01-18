@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="wfortune" gamename="Wheel Of Fortune" numPlayers="3" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+This game is just like the tv show.  Everyone spins the same wheel which is mapped to player one's controls.  The wheel is a glorified, oversized, spinner with a wof 'wheel' sticker on top of it.  When not spinning, the wheel moves the cursor while the select button selects the action highlighted. It should be noted that the wheel won't spin left while in 'spin the wheel' mode.
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Spinner">
+				<constant name="dial"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Select"/>
+			<label name="P1_DIAL" value="Spin Left"/>
+			<label name="P1_DIAL_EXT" value="Spin Right"/>
+		</labels>
+	</player>
+	<player number="2" numButtons="1">
+		<controls>
+		</controls>
+	<labels>
+			<label name="P2_BUTTON1" value="Select"/>
+		</labels>
+	</player>
+	<player number="3" numButtons="1">
+		<controls>
+		</controls>
+	<labels>
+			<label name="P3_BUTTON1" value="Select"/>
+		</labels>
+	</player>
+</game>

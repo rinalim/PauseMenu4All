@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="wseries" gamename="World Series: The Season" numPlayers="2" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+This is a simultaneous 2 player alternating game; a player is on the left side when pitching, on the right side when batting.  The aim button is shown with two physical buttons wired to one pin in the schematics.  All buttons are on one input port in the machine; mame puts them all as player 1 inputs, but on the 2 player game, the aim button(s) is more like a player 2 button.  (On a one player game, all inputs are like player 1 inputs.)
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="Batter Control">
+				<constant name="stick"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Go Back"/>
+			<label name="P1_BUTTON2" value="Xtra Base"/>
+			<label name="P1_BUTTON3" value="Aim"/>
+			<label name="P1_AD_STICK_Y" value="Up"/>
+			<label name="P1_AD_STICK_X_EXT" value="Swing"/>
+			<label name="P1_AD_STICK_X" value="Swing"/>
+			<label name="P1_AD_STICK_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+	<player number="2" numButtons="0">
+		<controls>
+			<control name="Baseball Pitcher">
+				<constant name="stick"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P2_AD_STICK_X" value="Left"/>
+			<label name="P2_AD_STICK_X_EXT" value="Right"/>
+			<label name="P2_AD_STICK_Y" value="Pitch"/>
+			<label name="P2_AD_STICK_Y_EXT" value="Windup"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="twotiger" gamename="Two Tigers (dedicated)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+Mame used to incorrectly define this game as a spinner.  Now it properly shows up as a one-axis yoke.  The 'misc' entry was added to show that it doesn't use the traditional star wars, 2-axis yoke.  The three player start button selects dogfight mode.  
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+			<control name="Yoke">
+				<constant name="stick"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+				<button name="P1_BUTTON3"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Shoot"/>
+			<label name="P1_BUTTON2" value="Bomb"/>
+			<label name="P1_BUTTON3" value="Speed"/>
+			<label name="P1_AD_STICK_X_EXT" value="Right"/>
+			<label name="P1_AD_STICK_X" value="Left"/>
+			<label name="P1_AD_STICK_Y" value=""/>
+			<label name="P1_AD_STICK_Y_EXT" value=""/>
+		</labels>
+	</player>
+</game>

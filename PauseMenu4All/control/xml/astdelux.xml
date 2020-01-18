@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="astdelux" gamename="Asteroids Deluxe (rev 3)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="Directional Buttons(2-way left/right)">
+				<constant name="joy2way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="FIRE"/>
+			<label name="P1_BUTTON2" value="THRUST"/>
+			<label name="P1_BUTTON3" value="SHIELDS"/>
+			<label name="P1_JOYSTICK_RIGHT" value="ROTATE RIGHT"/>
+			<label name="P1_JOYSTICK_LEFT" value="ROTATE LEFT"/>
+		</labels>
+	</player>
+</game>

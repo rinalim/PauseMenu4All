@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="themj" gamename="The Mah-jong (Japan)" numPlayers="1" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+Mahjong games are NOT compatable with ctrlr files.  As a matter of fact they pretty much all have the same layout and all have the same controls.  The controls are hardcoded, so remapping isn't reccomended, especially considering the fact that a full keyboard of buttons are required to play. 
+	</miscDetails>
+	<player number="1" numButtons="0">
+		<controls>
+			<control name="Mahjong Control Panel">
+				<constant name="other"/>
+			</control>
+		</controls>
+	<labels>
+		</labels>
+	</player>
+</game>

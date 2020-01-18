@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="yesnoj" gamename="Yes/No Sinri Tokimeki Chart" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Trivia Buttons">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Yes"/>
+			<label name="P1_BUTTON2" value="No"/>
+		</labels>
+	</player>
+</game>

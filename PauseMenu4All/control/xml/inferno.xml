@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="inferno" gamename="Inferno" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+The game actually uses a 4 way ball-top and a 4-way trigger stick.  Both are rotated on a 45 degree angle al-la qbert.  The 'fire' stick doesn't actually shoot, rather it aims your gun.  The fire button must be used to actually fire.  
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Dual 4-way Triggersticks">
+				<constant name="doublejoy4way"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_JOYSTICKLEFT_UP" value="Move Up+Right"/>
+			<label name="P1_JOYSTICKLEFT_DOWN" value="Move Down+Left"/>
+			<label name="P1_JOYSTICKLEFT_LEFT" value="Move Left+Up"/>
+			<label name="P1_JOYSTICKLEFT_RIGHT" value="Move Right+Down"/>
+			<label name="P1_JOYSTICKRIGHT_UP" value="Fire Up+Right"/>
+			<label name="P1_JOYSTICKRIGHT_DOWN" value="Fire Down+Left"/>
+			<label name="P1_JOYSTICKRIGHT_LEFT" value="Fire Left+Up"/>
+			<label name="P1_JOYSTICKRIGHT_RIGHT" value="Fire Right+Down"/>
+		</labels>
+	</player>
+</game>

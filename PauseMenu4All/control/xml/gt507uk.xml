@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="gt507uk" gamename="Trivia (UK Version 5.07)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The lighted trivia buttons are actually blank, as is the control panel overlay.  There are  labeled arrows on the screen that point to the appropriate button.  (Note:  even though all sources, evne the original game machines point ot alternating 2 player gameplay, it doesn't seem to work in mame... it's probably a bug.)
+	</miscDetails>
+	<player number="1" numButtons="5">
+		<controls>
+			<control name="Trivia Buttons">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+				<button name="P1_BUTTON3"/>
+				<button name="P1_BUTTON4"/>
+				<button name="P1_BUTTON5"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="1"/>
+			<label name="P1_BUTTON2" value="2"/>
+			<label name="P1_BUTTON3" value="3"/>
+			<label name="P1_BUTTON4" value="4"/>
+			<label name="P1_BUTTON5" value="5"/>
+		</labels>
+	</player>
+</game>

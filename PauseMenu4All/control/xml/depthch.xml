@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="depthch" gamename="Depthcharge" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Directional Buttons(2-way left/right)">
+				<constant name="joy2way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire Left Charge"/>
+			<label name="P1_BUTTON2" value="Fire Right Charge"/>
+			<label name="P1_JOYSTICK_LEFT" value="Move Ship Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Move Ship Right"/>
+		</labels>
+	</player>
+</game>

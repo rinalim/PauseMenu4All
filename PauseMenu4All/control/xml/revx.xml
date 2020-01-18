@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="revx" gamename="Revolution X (Rev. 1.0 6/16/94)" numPlayers="3" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+The 'bomb' button actually shoots a compact disc.  But that's what it is labeled in the game.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Analog Gun">
+				<constant name="lightgun"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="Bomb"/>
+			<label name="P1_LIGHTGUN_X" value="Aim Left"/>
+			<label name="P1_LIGHTGUN_X_EXT" value="Aim Right"/>
+			<label name="P1_LIGHTGUN_Y" value="Aim Up"/>
+			<label name="P1_LIGHTGUN_Y_EXT" value="Aim Down"/>
+		</labels>
+	</player>
+</game>

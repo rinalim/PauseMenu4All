@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="dangerz" gamename="Danger Zone" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+This game does NOT use a trackball in real life.  Instead, it uses quite possibly the most unique control ever.  Two immovable trigger sticks are mounted on a panel attached to the monitor.  When you try to move the sticks, they remain rigid and actually tilt the monitor!  The gameplay screen then scrolls depending upon where you tilt the monitor to.  This gives the illusion of the player looking through a window onto the battle field.  
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+			<control name="Trackball">
+				<constant name="trackball"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Machine Gun"/>
+			<label name="P1_BUTTON2" value="Heat - Seaking Missile"/>
+			<label name="P1_TRACKBALL_X" value="Left"/>
+			<label name="P1_TRACKBALL_X_EXT" value="Right"/>
+			<label name="P1_TRACKBALL_Y" value="Up"/>
+			<label name="P1_TRACKBALL_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="cryptklr" gamename="Crypt Killer (GQ420 UAA)" numPlayers="3" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Something of note is that this game uses a dedicated reload button that doesn't appear to be optional.  The dedicated cabinet uses shotguns, in which the reload button is wired to the pump.  Conversion kits often place the button on a control panel.  
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Lightgun">
+				<constant name="lightgun"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="Reload"/>
+			<label name="P1_LIGHTGUN_X" value="Left"/>
+			<label name="P1_LIGHTGUN_X_EXT" value="Right"/>
+			<label name="P1_LIGHTGUN_Y" value="Up"/>
+			<label name="P1_LIGHTGUN_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

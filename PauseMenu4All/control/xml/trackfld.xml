@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="trackfld" gamename="Track &amp; Field" numPlayers="4" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="Just Buttons">
+				<constant name="button"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Run"/>
+			<label name="P1_BUTTON2" value="Jump/Throw"/>
+			<label name="P1_BUTTON3" value="Run"/>
+		</labels>
+	</player>
+</game>

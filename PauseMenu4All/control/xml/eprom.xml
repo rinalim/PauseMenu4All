@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="eprom" gamename="Escape from the Planet of the Robot Monsters (set 1)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The buttons are arranged in a triangle, with fire on the bottom left corner, duck on the bottom right, and jump/start on the middle top corner.  The original analog stick used Hall Effect sensors instead of POTs.  Due to the price (and now out of production) of the sensors, many arcade operators replaced the hall effect sensors with their equivalent POT.  This game is very hard to control in mame with 8-ways or keyboards.  An analog joystick, OTOH, gives the player control like the original joystick.
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="Analog Stick">
+				<constant name="stick"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="Jump / Start"/>
+			<label name="P1_BUTTON3" value="Duck"/>
+			<label name="P1_AD_STICK_X" value="Left"/>
+			<label name="P1_AD_STICK_X_EXT" value="Right"/>
+			<label name="P1_AD_STICK_Y" value="Up"/>
+			<label name="P1_AD_STICK_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="snowbros" gamename="Snow Bros. - Nick &amp; Tom (set 1)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+Snow Bros is listed as using an 8-way joystick, though only left and right are used during gameplay.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Shoot and Kick Snowball"/>
+			<label name="P1_BUTTON2" value="Jump"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_DOWN" value="N/A"/>
+			<label name="P1_JOYSTICK_UP" value="N/A"/>
+		</labels>
+	</player>
+</game>

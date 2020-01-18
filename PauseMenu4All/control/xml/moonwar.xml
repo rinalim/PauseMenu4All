@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="moonwar" gamename="Moonwar" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+The game's original control panel also has a button called 'Hyper Flip' that for whatever reason isn't emulated in mame.    Also the roller for this game looks more like some sort of futuristic valve and is dubbed the 'Vector Director' by the label underneath it.  
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="Roller(Horizontal)">
+				<constant name="dial"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire Missile"/>
+			<label name="P1_BUTTON2" value="Warp Drive"/>
+			<label name="P1_BUTTON3" value="Shields"/>
+			<label name="P1_DIAL" value="Left"/>
+			<label name="P1_DIAL_EXT" value="Right"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="mvsc" gamename="Marvel Vs. Capcom: Clash of Super Heroes (Euro 980123)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The original control panels had the punch buttons on the top row of thee and the kick buttons on the bottom row.  ame maps the punch buttons 1 - 3 and the kick buttons 4 - 6.  This can be backwards for people.  Mame devs have stood by this because of the jamma locations of each button.
+	</miscDetails>
+	<player number="1" numButtons="6">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Punch - Jab"/>
+			<label name="P1_BUTTON2" value="Punch - Strong"/>
+			<label name="P1_BUTTON3" value="Punch - Fierce"/>
+			<label name="P1_BUTTON4" value="Kick - Short"/>
+			<label name="P1_BUTTON5" value="Kick - Forward"/>
+			<label name="P1_BUTTON6" value="Kick - Round-House"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+		</labels>
+	</player>
+</game>

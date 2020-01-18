@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="blitz" gamename="NFL Blitz (boot ROM 1.2)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+OTHER:  There is a dipswitch to use either two 49-way or two 8-way joysticks for direction control.  AFAIK, all blitz dedicated cabs came with 49-way stick; some upgrade kits came with 49-way sticks, others without any sticks (I guess assumed operator would use already installed 8-ways).  Mame currently (0.82u3) only emulates the 8-way.  In-game instructions sometimes refer to the buttons by their color instead of the label.  Turbo = White, Jump = Blue, Pass = Red.  When choosing the offensive play: the Turbo (White) button switches between the two pages of plays, Jump (Blue) flips the play directions left to right, and Pass (Red) chooses the highlighted play.  When choosing the defensive play: any button chooses the highlighted play (only one page, and plays can't be flipped).  When choosing either offense and defense you can turn off showing which play is highlighted by pressing up on the joystick three times (useful when playing against another player).  Turbo + Pass when running with the ball gives a stiff arm.  Tapping Turbo twice when running with the ball gives a spin.
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Turbo"/>
+			<label name="P1_BUTTON2" value="Jump/Tackle"/>
+			<label name="P1_BUTTON3" value="Pass/Change Player"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="nss" gamename="Nintendo Super System BIOS" numPlayers="4" alternating="0" mirrored="1" usesService="1" tilt="0" cocktail="0">
+	<miscDetails>
+The Nintendo Super System is the super nintendo version of the playchoice system and it runs on basically the same concept.  The control panel has 2 (or 4) industrial versions of the snes control pad mounted to it.    Please note that as of this posting, the mame driver doesn't emulate the nss fully.  Game select buttons aren't implemented yet.  Also note that the gamepad's select buttons are mapped to service buttons 1-4 respectively.  
+	</miscDetails>
+	<player number="1" numButtons="6">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="B"/>
+			<label name="P1_BUTTON2" value="Y"/>
+			<label name="P1_BUTTON3" value="A"/>
+			<label name="P1_BUTTON4" value="X"/>
+			<label name="P1_BUTTON5" value="L"/>
+			<label name="P1_BUTTON6" value="R"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

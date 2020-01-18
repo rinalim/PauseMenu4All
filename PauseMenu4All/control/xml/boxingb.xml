@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="boxingb" gamename="Boxing Bugs" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The dial is actually labeled rotation control.  The buttons don't have labels, rather they have pictures of a rocket and a boxing glove respectively.  
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="Spinner">
+				<constant name="dial"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Rocket"/>
+			<label name="P1_BUTTON2" value="Punch"/>
+			<label name="P1_DIAL" value="Rotate Left"/>
+			<label name="P1_DIAL_EXT" value="Rotate Right"/>
+		</labels>
+	</player>
+</game>

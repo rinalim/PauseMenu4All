@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="pbobble2" gamename="Puzzle Bobble 2 (Ver 2.3O 1995/07/31)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+Puzzle Bobble 2 is listed as using an 8-way joystick and 4 buttons, though only left, right and 1 button are used for gameplay. Up, down and buttons 2 and 3 are only used during Test Mode. I can find no references to button 4.
+	</miscDetails>
+	<player number="1" numButtons="4">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_BUTTON2" value="NA"/>
+			<label name="P1_BUTTON3" value="NA"/>
+			<label name="P1_BUTTON4" value="NA"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+		</labels>
+	</player>
+</game>

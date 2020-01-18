@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="powerdrv" gamename="Power Drive" numPlayers="3" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+Tap the front and back tires rapidly to acelerate and use the shifter to change gearing for obstacles.  Pop a wheelie with the wheelie button.  
+	</miscDetails>
+	<player number="1" numButtons="4">
+		<controls>
+			<control name="High-Low Shifter">
+				<constant name="button"/>
+				<button name="P1_BUTTON4"/>
+			</control>
+			<control name="Misc Buttons">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Back Tire"/>
+			<label name="P1_BUTTON2" value="Front Tire"/>
+			<label name="P1_BUTTON3" value="Wheelie"/>
+			<label name="P1_BUTTON4" value="2wd/4wd"/>
+		</labels>
+	</player>
+</game>

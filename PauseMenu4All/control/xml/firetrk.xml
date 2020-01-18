@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="firetrk" gamename="Fire Truck" numPlayers="2" alternating="0" mirrored="0" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+In this game the player 2 control panel is behind player 1.  Yes I said behind.  On a real fire truck there are two steering wheels.  One is in the back of the truck and turns the read wheels independantly of the front, thus allowing for tight turns with such a long vehicle.  This game is played exactly the same with player 2 controlling the rear wheel when two player mode is selected.  When 1 player mode is selected, those rear controls are ignored and thus the game is much harder to play.  
+	</miscDetails>
+	<player number="1" numButtons="3">
+		<controls>
+			<control name="360 Steering Wheel">
+				<constant name="dial"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+			<control name="Pedal (Microswitch)">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Accelerate"/>
+			<label name="P1_BUTTON2" value="Horn"/>
+			<label name="P1_BUTTON3" value="Track Select"/>
+			<label name="P1_DIAL" value="Left"/>
+			<label name="P1_DIAL_EXT" value="Right"/>
+		</labels>
+	</player>
+	<player number="2" numButtons="1">
+		<controls>
+			<control name="360 Steering Wheel">
+				<constant name="dial"/>
+				<button name="P2_BUTTON1"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P2_BUTTON1" value="Bell"/>
+			<label name="P1_DIAL" value="Left (Rear Wheels)"/>
+			<label name="P1_DIAL_EXT" value="Right (Rear Wheels)"/>
+		</labels>
+	</player>
+</game>

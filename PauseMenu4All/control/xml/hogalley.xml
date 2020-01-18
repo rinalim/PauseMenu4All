@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="hogalley" gamename="Vs. Hogan's Alley" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The Nintendo Vs. System was released along side the original NES game console. The games it plays are virtually identical.  This is the earliest known mvs cabinet. Almost all Vs cabinets had a layout exactly like the NES at home, with a joystick, A and B buttons, or a zapper. Although the cabinets had buttons for 3 and 4 player start, most of the games were only two player.
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="Lightgun">
+				<constant name="lightgun"/>
+				<button name="P1_BUTTON1"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Fire"/>
+			<label name="P1_LIGHTGUN_X" value="Left"/>
+			<label name="P1_LIGHTGUN_X_EXT" value="Right"/>
+			<label name="P1_LIGHTGUN_Y" value="Up"/>
+			<label name="P1_LIGHTGUN_Y_EXT" value="Down"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="totcarn" gamename="Total Carnage (rev LA1 03/10/92)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="1" cocktail="0">
+	<miscDetails>
+The start button is used in the game to speed up or skip hints, and to place mines/bombs.
+	</miscDetails>
+	<player number="1" numButtons="0">
+		<controls>
+			<control name="Dual 8-way Joysticks">
+				<constant name="doublejoy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_JOYSTICKLEFT_UP" value="Move Up"/>
+			<label name="P1_JOYSTICKLEFT_DOWN" value="Move Down"/>
+			<label name="P1_JOYSTICKLEFT_LEFT" value="Move Left"/>
+			<label name="P1_JOYSTICKLEFT_RIGHT" value="Move Right"/>
+			<label name="P1_JOYSTICKRIGHT_UP" value="Fire Up"/>
+			<label name="P1_JOYSTICKRIGHT_DOWN" value="Fire Down"/>
+			<label name="P1_JOYSTICKRIGHT_LEFT" value="Fire Left"/>
+			<label name="P1_JOYSTICKRIGHT_RIGHT" value="Fire Right"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="toutrun" gamename="Turbo Out Run (Out Run upgrade, FD1094 317-0118)" numPlayers="1" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The shifter has a side button for turbo, thus the name of the game.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="270 Steering Wheel">
+				<constant name="paddle"/>
+			</control>
+			<control name="High-Low Shifter">
+				<constant name="button"/>
+				<button name="P1_BUTTON1"/>
+				<button name="P1_BUTTON2"/>
+			</control>
+			<control name="Misc">
+				<constant name="other"/>
+			</control>
+			<control name="Pedal (Analog)">
+				<constant name="pedal"/>
+			</control>
+			<control name="Pedal2 (Analog)">
+				<constant name="pedal2"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="High / Low"/>
+			<label name="P1_BUTTON2" value="Turbo"/>
+			<label name="P1_PADDLE" value="Left"/>
+			<label name="P1_PADDLE_EXT" value="Right"/>
+			<label name="P1_PEDAL" value="Accelerate"/>
+			<label name="P1_PEDAL2" value="Brake"/>
+		</labels>
+	</player>
+</game>

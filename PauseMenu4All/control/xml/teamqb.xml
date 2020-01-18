@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="teamqb" gamename="John Elway's Team Quarterback (set 1)" numPlayers="4" alternating="0" mirrored="0" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+The start button is labeled 'Join'.  Player 1 is 'left QB', player 2 is 'left HB', and are on the same team.  Player 3 is 'right QB', player 4 is 'right HB', and are on the same team.  The CP has the players from left to right: LHB, LQB, RQB, RHB, or if you go by numbers, 2, 1, 3, 4.  Only the quarterbacks have springsticks (to control throwing &amp; kicking), but all players have a normal 8-way stick to control the player's movements.  The action button does different things, depending on what the 8 way stick is doing.  Since the 2 &amp; 4 players don't have a spring stick, they often have the action button mirrored on both sides of the joystick. The analog joystick 'springsticks' were held all the way up by the spring, with free movement sideways. The farther back you pulled the springstick, the farther/faster you would throw or kick the ball when you released the stick.  The label 'short' is positioned just below the springstick, below which is 'long'.  Along with the words, part of the label is a fat pointed line or arrow, pointing down away from the springstick.
+	</miscDetails>
+	<player number="1" numButtons="1">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+			<control name="Baseball Pitcher">
+				<constant name="stick"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Action"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_AD_STICK_X" value="Aim Left"/>
+			<label name="P1_AD_STICK_X_EXT" value="Aim Right"/>
+			<label name="P1_AD_STICK_Y" value="Throw / Kick"/>
+			<label name="P1_AD_STICK_Y_EXT" value="Short / Long"/>
+		</labels>
+	</player>
+	<player number="2" numButtons="1">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P2_BUTTON1" value="Action"/>
+			<label name="P2_JOYSTICK_UP" value="Up"/>
+			<label name="P2_JOYSTICK_DOWN" value="Down"/>
+			<label name="P2_JOYSTICK_LEFT" value="Left"/>
+			<label name="P2_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+	<player number="3" numButtons="1">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+			<control name="Baseball Pitcher">
+				<constant name="stick"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P3_BUTTON1" value="Action"/>
+			<label name="P3_JOYSTICK_UP" value="Up"/>
+			<label name="P3_JOYSTICK_DOWN" value="Down"/>
+			<label name="P3_JOYSTICK_LEFT" value="Left"/>
+			<label name="P3_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P3_AD_STICK_X" value="Aim Left"/>
+			<label name="P3_AD_STICK_X_EXT" value="Aim Right"/>
+			<label name="P3_AD_STICK_Y" value="Throw / Kick"/>
+			<label name="P3_AD_STICK_Y_EXT" value="Short / Long"/>
+		</labels>
+	</player>
+	<player number="4" numButtons="1">
+		<controls>
+			<control name="8-way Joystick">
+				<constant name="joy8way"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P4_BUTTON1" value="Action"/>
+			<label name="P0_JOYSTICK_UP" value="Up"/>
+			<label name="P0_JOYSTICK_DOWN" value="Down"/>
+			<label name="P0_JOYSTICK_LEFT" value="Left"/>
+			<label name="P0_JOYSTICK_RIGHT" value="Right"/>
+		</labels>
+	</player>
+</game>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="pbaction" gamename="Pinball Action (set 1)" numPlayers="2" alternating="1" mirrored="1" usesService="0" tilt="0" cocktail="1">
+	<miscDetails>
+The cpo lables are a little misleading.  By 'Start' it actually refers to launching the pinball, not the start button, which the game actually has two of.  Also, although there are two buttons on each side Labeled 'Start And Shake' apparently, only the left button starts and only the right button shakes.  This may be a mame issue though.  My best guess is on the original cpo, each button was cross-wired to both switches as a last-minute layout decision.  
+	</miscDetails>
+	<player number="1" numButtons="4">
+		<controls>
+			<control name="Just Buttons">
+				<constant name="button"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Left Flipper Button"/>
+			<label name="P1_BUTTON2" value="Right Flipper Button"/>
+			<label name="P1_BUTTON3" value="Shake and Start Button (Left)"/>
+			<label name="P1_BUTTON4" value="Shake and Start Button (Right)"/>
+		</labels>
+	</player>
+</game>

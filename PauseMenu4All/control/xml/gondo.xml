@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game romname="gondo" gamename="Gondomania (US)" numPlayers="2" alternating="0" mirrored="1" usesService="0" tilt="0" cocktail="0">
+	<miscDetails>
+Used the yellow snk LS-30 mechcanical rotatry.  Rotating the joystick changes the direction the Character Weapon shoots.  The Airbike Weapon always shoots straight forward.  This was usually released as a kit; the instructions suggested mirroring the buttons on both sides of each joystick, but not all arcade operaters did this.  Player1 is the blue air bike, player2 is the grey air bike.
+	</miscDetails>
+	<player number="1" numButtons="2">
+		<controls>
+			<control name="8-way Rotary Joystick(Mechanical)">
+				<constant name="joy8way"/>
+				<constant name="dial"/>
+			</control>
+		</controls>
+	<labels>
+			<label name="P1_BUTTON1" value="Character Weapon"/>
+			<label name="P1_BUTTON2" value="Airbike Weapon"/>
+			<label name="P1_DIAL" value="Rotate Left"/>
+			<label name="P1_JOYSTICK_RIGHT" value="Right"/>
+			<label name="P1_JOYSTICK_LEFT" value="Left"/>
+			<label name="P1_JOYSTICK_DOWN" value="Down"/>
+			<label name="P1_JOYSTICK_UP" value="Up"/>
+			<label name="P1_DIAL_EXT" value="Rotate Right"/>
+		</labels>
+	</player>
+</game>
