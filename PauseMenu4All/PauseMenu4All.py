@@ -505,7 +505,7 @@ def draw_picture(system, buttons):
 
 def start_viewer():
     if CONTROL_VIEW == True and os.path.isfile(PATH_PAUSEOPTION + "bg_resume.png") == True :
-        os.system("cp " + PATH_PAUSEOPTION + romname + "_resume.png /tmp/pause.png")
+        os.system("cp " + PATH_PAUSEOPTION + "bg_resume.png /tmp/pause.png")
         os.system("cp " + PATH_PAUSEOPTION + romname + "_layout0.png /tmp/pause_layout.png")
     else:
         os.system("cp " + PATH_PAUSEMENU + "pause_resume.png /tmp/pause.png")
@@ -690,7 +690,7 @@ def process_event(event):
                     elif MENU_INDEX == 3:
                         #print "Return"
                         change_viewer("RESUME", "0")
-                        os.system("echo " + PATH_PAUSEOPTION + romname + "_layout0.png > /tmp/pause_layout.txt")
+                        os.system("cp " + PATH_PAUSEOPTION + romname + "_layout0.png > /tmp/pause_layout.png")
                         MENU_INDEX = 1
                     elif MENU_INDEX == 4:
                         #print "Save"
