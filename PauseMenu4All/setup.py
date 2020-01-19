@@ -24,7 +24,7 @@ JS_EVENT_BUTTON = 0x01
 JS_EVENT_AXIS = 0x02
 JS_EVENT_INIT = 0x80
 
-PATH_PAUSEMENU = '/opt/retropie/configs/all/PauseMenu4All/'
+PATH_PAUSEMENU = '/opt/retropie/configs/all/PauseMenu/'
 ES_INPUT = '/opt/retropie/configs/all/emulationstation/es_input.cfg'
 RETROARCH_CFG = '/opt/retropie/configs/all/retroarch-joypads/'
 
@@ -58,6 +58,8 @@ def set_layout():
     f = open(PATH_PAUSEMENU + "control/layout.cfg", 'w')
     f.write(str(es_conf)+'\n')
     f.close()
+    
+    os.system("cp " + PATH_PAUSEMENU + "control/images/layout" + str(es_conf) + '/* ' + PATH_PAUSEMENU + "control/")
 
 def load_retroarch_cfg(dev_name):
     print 'Device Name: ', dev_name, '\n'
