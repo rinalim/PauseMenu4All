@@ -6,6 +6,7 @@ sudo apt-get install libjpeg8 -y
 sudo apt-get install imagemagick -y
 sudo apt-get install fonts-nanum -y
 sudo apt-get install fonts-nanum-extra -y
+sudo apt-get install python-pil -y
 
 rm -rf /opt/retropie/configs/all/PauseMenu4All/
 mkdir /opt/retropie/configs/all/PauseMenu4All/
