@@ -524,7 +524,7 @@ def stop_viewer():
     if is_running("pqiv") == True:
         os.system("killall pqiv")
     
-def change_viewer(position):
+def change_viewer(menu, index):
     if menu == "RESUME":
         if CONTROL_VIEW == True and os.path.isfile(PATH_PAUSEOPTION + "bg_resume.png") == True :
             os.system("cp " + PATH_PAUSEOPTION + "bg_resume.png /tmp/pause.png")
