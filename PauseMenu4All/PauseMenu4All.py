@@ -251,7 +251,7 @@ def get_btn_layout(system, buttons):
         print 'Use FinalBurn setting'
         #f = open(CONFIG_DIR + 'fba/FinalBurn Neo/FinalBurn Neo.rmp', 'r')
         f = open(CONFIG_DIR + 'fba/' + sys_map[system] + '/' + sys_map[system] + '.rmp', 'r')
-    while True:
+        while True:
             line = f.readline()
             if not line: 
                 break
