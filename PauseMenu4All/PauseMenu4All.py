@@ -130,7 +130,7 @@ def check_update():
     # print 'No need to update PNG'
     return False
 
-def control_on():
+def control_arg():
     if len(sys.argv) > 2 and sys.argv[2] == '-control':
         return True
     else:
