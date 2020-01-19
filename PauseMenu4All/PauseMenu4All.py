@@ -34,7 +34,7 @@ RETROARCH_CFG = CONFIG_DIR + 'all/retroarch.cfg'
 PATH_PAUSEMENU = CONFIG_DIR + 'all/PauseMenu4All/'
 VIEWER = "pqiv -c -i -f --display=:0 "
 VIEWER_LAYOUT = "pqiv -c -i -f --display=:0 "
-VIEWER_BG = "pqiv -c -i -f -t " + PATH_PAUSEMENU + "pause_bg.png"
+VIEWER_BG = "pqiv -c -i -f -t --display=:0 " + PATH_PAUSEMENU + "pause_bg.png"
 #VIEWER_OSD = PATH_PAUSEMENU + "omxiv-pause /tmp/pause.txt -f -t 5 -T blend --duration 200 -l 30001 -a center --win 980,864,1280,1024"
 
 SELECT_BTN_ON = False
