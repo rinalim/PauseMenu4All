@@ -745,7 +745,7 @@ def main():
             if is_running("bin/retroarch") == True:
                 is_retroarch = True
                 break
-            elif is_running("bin/advmame") == True:
+            elif is_running("emulators") == True:
                 break
             else:
                 time.sleep(1)    # wait for launching game
