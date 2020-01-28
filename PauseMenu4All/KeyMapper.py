@@ -6,7 +6,7 @@ import ast
 ES_INPUT = '/opt/retropie/configs/all/emulationstation/es_input.cfg'
 CONFIG_DIR = '/opt/retropie/configs/'
 RETROARCH_CFG = CONFIG_DIR + 'all/retroarch.cfg'
-PATH_PAUSEMENU = CONFIG_DIR + 'all/PauseMenu/'	
+PATH_PAUSEMENU = CONFIG_DIR + 'all/PauseMenu4All/'	
 PATH_PAUSEOPTION = PATH_PAUSEMENU+'control/'
 
 retroarch_key = {}
